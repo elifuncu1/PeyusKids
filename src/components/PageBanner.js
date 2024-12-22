@@ -2,7 +2,6 @@ import Link from "next/link";
 const PageBanner = ({ pageName, pageTitle }) => {
   return (
     <section className="tf-page-title">
-      <div className="overlay" />
       <div className="overlay-bg" />
       <img
     src="assets/images/background/img1innerpage.png"

@@ -348,12 +348,12 @@ const Index = () => {
                       <RightArrow />
                     </div>
                     <h2 className="title clr-pri-2">
-                      Çocuklarınızı kendi çocuklarımızdan ayırt etmiyoruz.{" "}
+                      Çocuklarınızın geleceğini yönetiyoruz.{" "}
                     </h2>
                   </div>
                   {/*/.title-heading*/}
                   <p className="wrap f-mulish">
-                    Aklınız asla geride kalmayacak şekilde çocuklarınızı eğitiyoruz.
+                    Çocuklarınız için en iyi eğitim ve öğretim sağlıyoruz.
                   </p>
                   <div className="inner fx">
                     <div className="sc-services-2 fx mg-bt-25">

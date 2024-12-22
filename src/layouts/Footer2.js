@@ -12,11 +12,9 @@ const Footer2 = () => {
                 data-wow-duration="1200ms"
               >
                 <div className="subcribe-wp">
-                  <h2 className="title clr-pri-5">Subscribe Our Newsletter</h2>
+                  <h2 className="title clr-pri-5">Abone Ol</h2>
                   <p className="sub f-mulish clr-pri-2">
-                    Amet consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua suspendisse
-                    ultrices gravida. Risus commodo
+                    Okulumuz hakkında en son haberleri ve gelişmeleri almak için lütfen e-posta adresinizi giriniz.
                   </p>
                 </div>
                 <div className="subcribe-form fx">
@@ -28,10 +26,10 @@ const Footer2 = () => {
                     <input
                       type="email"
                       id="subscribe-email"
-                      placeholder="Email Address"
+                      placeholder="E-posta Adresi"
                     />
                     <button className="fl-btn st-7" id="subscribe-button">
-                      <span className="inner">Subscribe</span>
+                      <span className="inner">Abone Ol</span>
                     </button>
                   </form>
                 </div>
@@ -59,8 +57,7 @@ const Footer2 = () => {
 
                   </div>
                   <p className="wrap f-mulish">
-                    Sit amet consectetur adipiscing elit sed do eiusmod teminci
-                    idunt ut labore et dolore magna
+                    Okulumuz, Maltepe ilçesinde en başarılı okullardan biridir.
                   </p>
                   <div className="list-contact">
                     <ul>
@@ -85,10 +82,10 @@ const Footer2 = () => {
                 <div className="widget widget-business">
                   <div className="inner">
                     <div className="op-time">
-                      <h4 className="title-widget">opening hours</h4>
+                      <h4 className="title-widget">Açılış Saatleri</h4>
                       <ul>
                         <li>
-                          <span className="f-mulish">Sunday - Friday</span>
+                          <span className="f-mulish">Pzt - Cuma</span>
                         </li>
                         <li>
                           <span className="f-mulish">08 am - 05 pm</span>
@@ -96,104 +93,41 @@ const Footer2 = () => {
                       </ul>
                     </div>
                     <div className="cls-time">
-                      <p>Every Satarday and Govt Holiday</p>
-                      <h4 className="title-widget">closed</h4>
+                      <p>Cumartesi ve Pazar Tatili</p>
+                      <h4 className="title-widget">Kapalı</h4>
                     </div>
                   </div>
                 </div>
                 <div className="widget widget-link">
-                  <h4 className="title-widget">Our Program</h4>
+                  <h4 className="title-widget">Programlarımız</h4>
                   <ul className="list-link">
                     <li className="fx">
-                      <Link href="/program">
-                        <a className="wd-ctm f-mulish">Arts &amp; Drawing</a>
-                      </Link>
+                        <a className="wd-ctm f-mulish">Sanat ve Resim</a>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
-                        <a className="wd-ctm f-mulish">Computer Engineering </a>
-                      </Link>
+                        <a className="wd-ctm f-mulish">Bilgisayar Eğitimi</a>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
-                        <a className="wd-ctm f-mulish">Digital Mathematics</a>
-                      </Link>
+                        <a className="wd-ctm f-mulish">Sayısal Matematik</a>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
-                        <a className="wd-ctm f-mulish">Physical Exercise</a>
-                      </Link>
+
+                        <a className="wd-ctm f-mulish">Fizik Eğitimi</a>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
-                        <a className="wd-ctm f-mulish">General Science</a>
-                      </Link>
+
+                        <a className="wd-ctm f-mulish">Genel Bilgi</a>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
-                        <a className="wd-ctm f-mulish">English Basic</a>
-                      </Link>
+
+                        <a className="wd-ctm f-mulish">İngilizce</a>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
-                        <a className="wd-ctm f-mulish">Social Science</a>
-                      </Link>
+                        <a className="wd-ctm f-mulish">Sosyal Bilgiler</a>
                     </li>
                   </ul>
                 </div>
-                <div className="widget widget-news st-3">
-                  <h4 className="title-widget">recent news</h4>
-                  <ul className="list-news">
-                    <li className="fx">
-                      <img
-                        src="assets/images/thumbnails/widget9.jpg"
-                        alt="Image"
-                        className="feature"
-                      />
-                      <ul className="box-content">
-                        <li>
-                          <h6 className="title">
-                            <Link href="/blog-grid">
-                              <a>Useful Code Extened End Developers</a>
-                            </Link>
-                          </h6>
-                        </li>
-                        <li>
-                          <Link href="/blog-grid">
-                            <a className="fx meta-news clr-pri-6">
-                              <i className="far fa-calendar-alt" />
-                              25 dec 2021
-                            </a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="fx">
-                      <img
-                        src="assets/images/thumbnails/widget10.jpg"
-                        alt="Image"
-                        className="feature"
-                      />
-                      <ul className="box-content">
-                        <li>
-                          <h6 className="title">
-                            <Link href="/blog-grid">
-                              <a>Useful Code Extened End Developers</a>
-                            </Link>
-                          </h6>
-                        </li>
-                        <li>
-                          <Link href="/blog-grid">
-                            <a className="fx meta-news clr-pri-6">
-                              <i className="far fa-calendar-alt" />
-                              25 dec 2021
-                            </a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
+
               </div>
             </div>
             
