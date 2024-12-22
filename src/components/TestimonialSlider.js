@@ -27,7 +27,7 @@ const TestimonialSlider = () => {
             </div>
             <div className="wrap">
             <p className="clr-pri-2" style={{ fontSize: '16px', lineHeight: '1.2' }}>
-              "Peyus Kids, çocukların öğrenmeye ve keşfetmeye en doğal şekilde başladığı bir yerdir. Her gün sınıfımızda sevgi dolu bir atmosferde, çocukların hayal güçlerini kullanarak oyunlarla, etkinliklerle, ve öğrenme süreçlerine katılımlarıyla büyüdüklerini görmek büyük bir mutluluk. Burada, her çocuk bireysel yeteneklerine göre destekleniyor ve eğlenerek öğreniyor. Eğitim temelimiz, çocukların sosyal ve duygusal gelişimlerini desteklemek üzerine kurulu."
+            &quot;Peyus Kids, çocukların öğrenmeye ve keşfetmeye en doğal şekilde başladığı bir yerdir. Her gün sınıfımızda sevgi dolu bir atmosferde, çocukların hayal güçlerini kullanarak oyunlarla, etkinliklerle, ve öğrenme süreçlerine katılımlarıyla büyüdüklerini görmek büyük bir mutluluk. Burada, her çocuk bireysel yeteneklerine göre destekleniyor ve eğlenerek öğreniyor. Eğitim temelimiz, çocukların sosyal ve duygusal gelişimlerini desteklemek üzerine kurulu.&quot;
               </p>
             </div>
           </div>
@@ -59,7 +59,7 @@ const TestimonialSlider = () => {
             </div>
             <div className="wrap">
             <p className="clr-pri-2" style={{ fontSize: '16px', lineHeight: '1.2' }}>
-              "Peyus Kids'de, her çocuk bir keşif yolculuğuna çıkar. Onlara sadece bilgi değil, aynı zamanda empati, paylaşma ve sorumluluk gibi hayat becerileri de öğretiyoruz. Yaratıcı etkinlikler ve interaktif oyunlarla, çocuklar hem eğleniyor hem de öğreniyor. Her bir öğrencimizin potansiyelini en iyi şekilde geliştirebilmek için burada güçlü bir takım ruhu oluşturduk. Peyus, her çocuğun kendini güvende ve değerli hissettiği bir yerdir."
+            &quot;Peyus Kids&apos;de, her çocuk bir keşif yolculuğuna çıkar. Onlara sadece bilgi değil, aynı zamanda empati, paylaşma ve sorumluluk gibi hayat becerileri de öğretiyoruz. Yaratıcı etkinlikler ve interaktif oyunlarla, çocuklar hem eğleniyor hem de öğreniyor. Her bir öğrencimizin potansiyelini en iyi şekilde geliştirebilmek için burada güçlü bir takım ruhu oluşturduk. Peyus, her çocuğun kendini güvende ve değerli hissettiği bir yerdir.&quot;
               </p>
             </div>
           </div>

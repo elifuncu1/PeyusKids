@@ -155,7 +155,7 @@ const Teacher = () => {
               <div className="infor-teacher-detail">
                 <div className="experience m-b38">
                   <h3>Deneyim</h3>
-                  <p>Kurucuları arasında yer aldığı Peyus Kids'te, çocukların gelişim değerlendirmelerini düzenli olarak takip ediyor, oyun atölyeleri düzenliyor, gelişimsel oyun gruplarını planlıyor ve her çocuğun ihtiyaçlarına yönelik bireyselleştirilmiş çalışmalar yapmaktadır. Çocukların potansiyellerini en üst düzeye çıkarmalarına destek olmayı amaçlamaktadır. Bununla beraber, oyun ve öğrenmeyi bir araya getiren çalışmalarıyla çocukların hem gelişimlerine hem de mutluluklarına katkı sağlamayı hedeflemektedir.</p>
+                  <p>Kurucuları arasında yer aldığı Peyus Kids&apos;te, çocukların gelişim değerlendirmelerini düzenli olarak takip ediyor, oyun atölyeleri düzenliyor, gelişimsel oyun gruplarını planlıyor ve her çocuğun ihtiyaçlarına yönelik bireyselleştirilmiş çalışmalar yapmaktadır. Çocukların potansiyellerini en üst düzeye çıkarmalarına destek olmayı amaçlamaktadır. Bununla beraber, oyun ve öğrenmeyi bir araya getiren çalışmalarıyla çocukların hem gelişimlerine hem de mutluluklarına katkı sağlamayı hedeflemektedir.</p>
 
                   
                 </div>
