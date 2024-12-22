@@ -67,3 +67,5 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+.next/cache/webpack/client-development/17.pack
