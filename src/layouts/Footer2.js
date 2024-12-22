@@ -47,14 +47,16 @@ const Footer2 = () => {
               <div className="widget-footer">
                 <div className="widget widget-logo">
                   <div className="logo-bottom" id="logo-footer">
-                    <Link href="/">
-                      <a>
-                        <img
-                          src="assets/images/logo/logofootert.png"
-                          alt="kinco"
-                        />
-                      </a>
-                    </Link>
+                  <Link href="/">
+  <a>
+    <img
+      src="assets/images/logo/logofootert.png"
+      alt="kinco"
+      style={{ maxWidth: '70%', height: 'auto' }}
+    />
+  </a>
+</Link>
+
                   </div>
                   <p className="wrap f-mulish">
                     Sit amet consectetur adipiscing elit sed do eiusmod teminci
@@ -194,16 +196,7 @@ const Footer2 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12">
-              <div className="footer-bottom jus-ct">
-                <p className="copy-right">
-                  Copyright © {new Date().getFullYear()}, Designed by{" "}
-                  <a href="https://themeforest.net/user/webtend/portfolio">
-                    Elif
-                  </a>
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

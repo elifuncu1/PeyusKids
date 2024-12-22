@@ -1120,6 +1120,7 @@ a:focus {
     background-image   : url(../images/background/bg-menu.png);
     background-repeat  : no-repeat;
     background-position: center center;
+    backgroundSize: 'cover'; 
     justify-content: center;
     margin-right: -10px;
 } 

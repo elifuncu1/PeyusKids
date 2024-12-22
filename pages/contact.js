@@ -5,105 +5,21 @@ import Layout from "../src/layouts/Layout";
 const Contact = () => {
   return (
     <Layout bodyClass={"contact"}>
-      <PageBanner pageName={"Contact"} pageTitle={"Contact Us"} />
+      <PageBanner pageName={"İletişim"} pageTitle={"İletişim"} />
 
-      <section className="tf-section tf-faq">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="title-heading st-2">
-                <div className="sub-heading clr-pri-3 f-mulish">
-                  <LeftArrow />
-                  <span className="inner-sub st-1">Need Any Support</span>
-                  <RightArrow />
-                </div>
-                <h2 className="title clr-pri-2">
-                  We Are Ready To Help You For Your’s Informations
-                </h2>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div
-                className="sc-faq wow fadeIn animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1200ms"
-              >
-                <div className="image">
-                  <img src="assets/images/common/sc-faq1.png" alt="Image" />
-                </div>
-                <div className="content">
-                  <h4>Supports and Info</h4>
-                  <p className="desc">
-                    Edipiscin elitsed eiusmod incididunt dolore magna
-                    suspendisse
-                  </p>
-                  <a href="#" className="fl-btn st-5">
-                    <span className="inner">Contact Us</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div
-                className="sc-faq active wow fadeIn animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1200ms"
-              >
-                <div className="image">
-                  <img src="assets/images/common/sc-faq2.png" alt="Image" />
-                </div>
-                <div className="content">
-                  <h4>News and Updates</h4>
-                  <p className="desc">
-                    Edipiscin elitsed eiusmod incididunt dolore magna
-                    suspendisse
-                  </p>
-                  <a href="#" className="fl-btn st-5">
-                    <span className="inner">Contact Us</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div
-                className="sc-faq wow fadeIn animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1200ms"
-              >
-                <div className="image">
-                  <img src="assets/images/common/sc-faq3.png" alt="Image" />
-                </div>
-                <div className="content">
-                  <h4>Events and Programs</h4>
-                  <p className="desc">
-                    Edipiscin elitsed eiusmod incididunt dolore magna
-                    suspendisse
-                  </p>
-                  <a href="#" className="fl-btn st-5">
-                    <span className="inner">Contact Us</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="tf-section tf-contact">
+    
+      <section className="tf-section tf-contact" style={{marginTop:'100px'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-5">
               <div className="title-heading">
                 <div className="sub-heading clr-pri-3 f-mulish">
-                  <span className="inner-sub">Contact Us</span>
+                  <span className="inner-sub">Bize Ulaşın</span>
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2 m-b26">
-                  Feel Free To Contact Us For More Info
+                  Daha Fazla Bilgi İçin İletişime Geçin
                 </h2>
-                <p className="f-mulish">
-                  Consectetur adipiscin elitsed eiusmod tempor incidide labore
-                  magna aliqua suspendisse gravida commodo
-                </p>
               </div>
               <div className="wrap-contact">
                 <div className="fx adress">
@@ -124,8 +40,9 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <p>Address</p>
-                    <h4>55 Main Street, New York</h4>
+                    <p>Adres</p>
+                    <h4>Cevizli Mah. Tugay Yolu Cad. Piazza Konutları
+                    No:69-B Daire:8 Kat:4 Maltepe/İstanbul</h4>
                   </div>
                 </div>
                 <div className="fx Email">
@@ -147,8 +64,8 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <p>Email Address</p>
-                    <h4>support@gmail.com</h4>
+                    <p>Email</p>
+                    <h4>peyuskids@gmail.com</h4>
                   </div>
                 </div>
                 <div className="fx phone">
@@ -169,7 +86,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <p>Hotline</p>
+                    <p>Telefon</p>
                     <h4>+012 (345) 678</h4>
                   </div>
                 </div>
@@ -188,99 +105,27 @@ const Contact = () => {
         </div>
       </section>
       <section>
-        <div className="tf-section map">
-          <div className="flat-map">
-            <iframe
-              className="map-content wow fadeInUp   animated"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4457.30210514409!2d144.9550716623184!3d-37.818421643591336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd5a05d97%3A0x3e64f855a564844d!2s121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1631871760998!5m2!1svi!2s"
-              width={1720}
-              height={655}
-              style={{
-                border: 0,
-                visibility: "visible",
-                animationName: "fadeInUp",
-              }}
-              allowFullScreen=""
-              loading="lazy"
-            />
-          </div>
-        </div>
-      </section>
-      <section className="tf-section tf-message">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="form-message">
-                <h2 className="heading">Leave a Message</h2>
-                <form
-                  action="contact/contact-process4.php"
-                  method="post"
-                  id="commentform"
-                  className="comment-form"
-                >
-                  <div className="fx flex-wrap">
-                    <fieldset className="name">
-                      <input
-                        type="text"
-                        placeholder="Full Name Here"
-                        required=""
-                        name="name"
-                        className="name"
-                        id="name"
-                      />
-                    </fieldset>
-                    <fieldset className="email">
-                      <input
-                        type="email"
-                        placeholder="Email Address"
-                        required=""
-                        name="mail"
-                        className="mail"
-                        id="mail"
-                      />
-                    </fieldset>
-                    <fieldset className="phone">
-                      <input
-                        type="number"
-                        placeholder="Phone Number"
-                        required=""
-                        name="number"
-                        className="number"
-                        id="number"
-                      />
-                    </fieldset>
-                    <fieldset className="select-wrap" role="group">
-                      <div className="select">
-                        <select name="subject" id="subject">
-                          <option value="Please Select">Subject</option>
-                          <option value="services1">Subject 01</option>
-                          <option value="services2">Subject 02</option>
-                        </select>
-                      </div>
-                    </fieldset>
-                    <fieldset className="message">
-                      <textarea
-                        placeholder="Write Message"
-                        rows={5}
-                        tabIndex={4}
-                        name="messagewr2"
-                        className="messagewr2"
-                        id="messagewr2"
-                        defaultValue={""}
-                      />
-                    </fieldset>
-                    <div className="wrap-btn">
-                      <button type="submit" className="fl-btn st-6">
-                        <span className="inner">Send message</span>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="tf-section map">
+    <div className="flat-map">
+      <iframe
+        className="map-content wow fadeInUp animated"
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3014.8512143864345!2d29.16482387585367!3d40.91900807136307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCevizli%20Mah.%20Tugay%20Yolu%20Cad.%20Piazza%20Konutlar%C4%B1%20No%3A69-B%20Daire%3A8%20Kat%3A4%20Maltepe%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1734817223339!5m2!1str!2str"
+        width={600}
+        height={450}
+        style={{
+          border: 0,
+          visibility: "visible",
+          animationName: "fadeInUp",
+        }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+    </div>
+  </div>
+</section>
+
+      
     </Layout>
   );
 };

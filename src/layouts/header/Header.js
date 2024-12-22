@@ -28,7 +28,7 @@ const Header = () => {
       <div className="top-bar">
         <div className="inner jus-ct">
           <p className="clr-pri-1">
-            Working Jours : Sun - Friday, 08:00 am - 05:00 pm
+           Çalışma Saatleri : Pazartesi - Cuma, 08:00 am - 05:00 pm
           </p>
         </div>
       </div>
@@ -37,17 +37,42 @@ const Header = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="site-header-inner fx">
-                <div id="site-logo" className="clearfix">
-                  <Link href="/">
-                    <a className="logo">
-                      <img src="assets/images/logo/logodark.png" alt="Kinco" />
-                    </a>
-                  </Link>
-                </div>
+              <div id="site-logo" className="clearfix" style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', paddingLeft: '25px' }}>
+  <Link href="/">
+    <a className="logo">
+      <img src="assets/images/logo/logodark.png" alt="Kinco" style={{ maxWidth: '100%', height: 'auto', maxWidth: '150px' }} />
+    </a>
+  </Link>
+</div>
+
                 <div className="btn-menu">
                   <span />
                 </div>
                 <div className="nav-wrap">
+<<<<<<< HEAD
+                <nav id="mainnav" className="mainnav st-2">
+  <ul className="menu" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px' , paddingLeft: '150px'}}>
+    <li className="menu-item">
+      <Home />
+    </li>
+    <li className="menu-item">
+      <About />
+    </li>
+    <li className="menu-item">
+     <Teacher/>
+    </li>
+    <li className="menu-item">
+      <Pages/>
+    </li>
+    <li className="inner">
+      <Contact />
+    </li>
+  </ul>
+  {/* /.menu */}
+  
+</nav>
+
+=======
                   <nav id="mainnav" className="mainnav st-2">
                     <ul className="menu">
                       <li className="menu-item-has-children">
@@ -186,7 +211,9 @@ const Header = () => {
                       </ul>
                     </div>
                   </div>
+>>>>>>> parent of 8252d4c (<)
                 </div>
+                
               </div>
             </div>
           </div>
@@ -195,6 +222,7 @@ const Header = () => {
       </div>
       <div />
     </header>
+    
   );
 };
 export default Header;

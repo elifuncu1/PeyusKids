@@ -11,6 +11,7 @@ import {
   Pages,
   Program,
   Shop,
+  Galeri,
   Teacher,
 } from "./Menus";
 
@@ -23,7 +24,7 @@ const Header1 = () => {
   return (
     <header id="site-header" className="header_main d-none d-xl-block">
       <div className="container">
-        <div className="row">
+        <div className="row" >
           <div className="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6">
             <div className="top-bar-2 fx">
               <div id="site-logo" className="clearfix">
@@ -57,7 +58,7 @@ const Header1 = () => {
                     <li className="clr-pri-2">Cevizli Mah. Tugay Yolu Cad. Piazza Konutları <br/> No:69-B Daire:8 Kat:4 Maltepe/İstanbul</li>
                   </ul>
                 </div>
-                <div className="inner-contact fx">
+                <div className="inner-contact fx" >
                   <svg
                     data-name="Hero Area"
                     xmlns="http://www.w3.org/2000/svg"
@@ -106,30 +107,23 @@ const Header1 = () => {
             </div>
           </div>
           <div className="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6">
-            <div className="site-header-inner st-2 fx">
-              <div className="btn-menu">
+            <div className="site-header-inner st-2 fx"  >
+              <div className="btn-menu" >
                 <span />
               </div>
               <div className="nav-wrap">
                 <nav id="mainnav" className="mainnav st-2">
                   <ul className="menu">
-                    <li className="menu-item">
-                      <a href="#">Anasayfa</a>
-                      <ul className="sub-menu">
-                        <Home />
-                      </ul>
-                    </li>
+                  <li className="menu-item">
+      <Home />
+    </li>
                     <li className="menu-item">
                       <About />
                     </li>
                     <li className="menu-item">
-                        <a href="/teacher">Öğretmenlerimiz</a>
-                      </li>
+<Teacher/>                      </li>
                       <li className="menu-item">
-                        <a href="/gallery">
-                        Galeri
-                        </a>
-                        </li>
+<Pages/>                        </li>
                     <li className="inner">
                       <Contact />
                     </li>

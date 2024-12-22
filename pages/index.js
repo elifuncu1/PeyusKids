@@ -43,7 +43,7 @@ const Index = () => {
                           Çocuk Eğitimine Önem Veriyoruz
                           </div>
                           <div className="title clr-pri-2">
-                            İle Öğrenmeye Başlayın
+                            Peyus İle Öğrenmeye Başlayın
                           </div>
                           <div className="box-custom">
                             <div className="wrap clr-pri-1">Peyus Kids</div>
@@ -80,7 +80,7 @@ const Index = () => {
                           </ul>
                           <div className="box-btn">
                             <a href="contact/" className="fl-btn st-12">
-                              <span className="inner">İletişime Geçin</span>
+                              <span className="inner">İLETİŞİME GEÇİN</span>
                             </a>
                             <Link href="/about">
                               <a className="fl-btn st-1">
@@ -92,7 +92,7 @@ const Index = () => {
                         <div className="box-feature">
                           <div className="image">
                             <img
-                              src="assets/images/common/slider-1.png"
+                              src="assets/images/common/ep.jpg"
                               alt="Image"
                             />
                           </div>
@@ -339,7 +339,7 @@ const Index = () => {
                   data-wow-delay="0.3ms"
                   data-wow-duration="1300ms"
                 >
-                  <img src="assets/images/pattern/service-2.png" alt="Image" />
+                  <img src="assets/images/pattern/neden.svg" alt="Image" />
                 </div>
                 <div className="box-content">
                   <div className="title-heading">

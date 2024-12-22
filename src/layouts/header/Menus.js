@@ -4,43 +4,25 @@ import { Fragment } from "react";
 export const Home = () => (
   <Fragment>
     <li>
-      <Link href="/">Home 01</Link>
+      <Link href="/">Anasayfa</Link>
     </li>
-    <li>
-      <Link href="/home2">Home 02</Link>
-    </li>
+    
   </Fragment>
 );
 export const Pages = () => (
   <Fragment>
     <li>
-      <Link href="/calendar">Academic Calendar</Link>
+      <Link href="/gallery">GALERİ</Link>
     </li>
-    <li>
-      <Link href="/testimonials">testimonials</Link>
-    </li>
-    <li>
-      <Link href="/time-table">Time Table</Link>
-    </li>
-    <li>
-      <Link href="/gallery">gallery</Link>
-    </li>
-    <li>
-      <Link href="/pricing">pricing</Link>
-    </li>
-    <li>
-      <Link href="/faq">Faq</Link>
-    </li>
+   
   </Fragment>
 );
 export const Teacher = () => (
   <Fragment>
     <li>
-      <Link href="/teacher">Teacher</Link>
+      <Link href="/teacher">ÖĞRETMENLERİMİZ</Link>
     </li>
-    <li>
-      <Link href="/teacher-details">Teachers Details</Link>
-    </li>
+  
   </Fragment>
 );
 export const Classes = () => (
@@ -99,5 +81,8 @@ export const Shop = () => (
     </li>
   </Fragment>
 );
+
 export const About = () => <Link href="/about">Hakkımızda</Link>;
-export const Contact = () => <Link href="/contact">İletişim</Link>;
+export const Contact = () => <Link href="/contact">İleTİŞİM</Link>;
+export const Gallery =() =><Link href="/gallery">Galeri</Link>;
+

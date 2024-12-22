@@ -5,6 +5,11 @@ const PageBanner = ({ pageName, pageTitle }) => {
       <div className="overlay" />
       <div className="overlay-bg" />
       <img
+    src="assets/images/background/img1innerpage.png"
+    className="bg-inner1"
+    alt=""
+  />
+      <img
         src="assets/images/background/img1innerpage.png"
         className="bg-inner1"
         alt=""
@@ -41,6 +46,7 @@ const PageBanner = ({ pageName, pageTitle }) => {
         </div>
       </div>
     </section>
+    
   );
 };
 export default PageBanner;

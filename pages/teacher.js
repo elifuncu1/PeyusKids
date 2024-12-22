@@ -1,539 +1,182 @@
-// import DonutChart from "../src/components/DonutChart";
-import dynamic from "next/dynamic";
-import Link from "next/link";
 import PageBanner from "../src/components/PageBanner";
-import TfCounter from "../src/components/TfCounter";
-import { LeftArrow, RightArrow } from "../src/Icons";
 import Layout from "../src/layouts/Layout";
-const DonutChart = dynamic(() => import("../src/components/DonutChart"), {
-  ssr: false,
-});
 
 const Teacher = () => {
   return (
     <Layout bodyClass={"teacher"}>
-      <PageBanner pageName={"Our Teacher"} />
-
-      <section className="tf-section tf-about">
+      <PageBanner pageName={"Öğretmenlerimiz"} />
+      <section className="tf-section tf-teacher-details">
         <div className="container">
           <div className="row">
-            <div className="col-12">
-              <div className="title-heading st-2">
-                <div className="sub-heading clr-pri-3 f-mulish">
-                  <LeftArrow />
-                  <span className="inner-sub st-1">Meet Our Teacher</span>
-                  <RightArrow />
+            <div className="col-md-12">
+              <div className="fx teacher-details">
+                <div className="teacher-infor">
+                  <div className="content">
+                    <h3 className="name">Helin Elhüseyni</h3>
+                    <p className="job">Psikolog</p>
+                    <p className="sub f-mulish">
+                      Peyus Kids Kurucusu
+                    </p>
+                  </div>
+                  <div className="teacher-social">
+                   
+                    
+                  </div>
                 </div>
-                <h2 className="title clr-pri-2">
-                  We Have Lot’s Of Experience Teacher To Teach The Students
-                </h2>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="800ms"
-              >
-                <div className="box-feature">
+                <div
+                  className="teacher-image wow fadeIn animated"
+                  data-wow-delay="0.3ms"
+                  data-wow-duration="1200ms"
+                >
                   <img
-                    src="assets/images/common/sc-employee-1.jpg"
+                    src="assets/images/common/sc-service-10.jpg"
                     alt="Image"
                   />
                 </div>
-                <div className="box-content st-1">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Patrick K. Carlson</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">Computer Teacher</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
+                <div className="teacher-desc">
+                  <ul className="fx m-b17">
+                   
+                    <li>
+                      <span className="f-mulish">
+                      Helin Elhüseyni, 2023 yılında Maltepe Üniversitesi Psikoloji (İngilizce) bölümünden yüksek onur derecesiyle mezun olmuştur ve şu anda Işık Üniversitesi’nde Klinik Psikoloji alanında uzmanlık çalışmalarını sürdürmektedir. Peyus Kids’in kurucusu olarak, çocukların bireysel ihtiyaçlarını anlamayı ve onlara bilimsel, yaratıcı ve bütüncül yaklaşımlar sunmayı hedeflemektedir. Çocukların gelişimlerini takip ederken, aileleri de sürece dahil ederek güven ve iş birliği temelinde bir danışmanlık anlayışı benimsemektedir.
+                      </span>
+                    </li>
+                  </ul>
+                 
+                  <ul className="box">
+                    <li className="list fx">
+                      <span>
+                        <i className="far fa-envelope-open" />
+                      </span>
+                      <span>Email</span>
+                    </li>
+                    <li>peyuskids@gmail.com</li>
+                  </ul>
                 </div>
               </div>
+              <div className="infor-teacher-detail">
+                <div className="experience m-b38">
+                  <h3>Deneyim</h3>
+                  <p>
+                  Lisans hayatı boyunca Helin Elhüseyni, Tuzla Devlet Hastanesi, Erenköy Ruh ve Sinir Hastalıkları Hastanesi, Sancaktepe Toplum Ruh Sağlığı Merkezi, Uğur Mumcu Toplum Ruh Sağlığı Merkezi gibi yerlerde klinik gözlem ve stajlar yapmıştır. Ayrıca, SOYAÇ ve MA-TİN gibi araştırma merkezlerinde gönüllü çalışmalarda bulunmuştur. Hem psikiyatri servislerinde hem de psikolojik danışmanlık merkezlerinde deneyim kazanmıştır. Çocuk gelişim grupları ve oyun atölyeleri düzenleyerek, bu alanlarda uzmanlaşmıştır.
+                  </p>
+                 
+                </div>
+                <div className="professional">
+                  <h3>Yetenekler</h3>
+                  <p>
+                  Helin Elhüseyni, çeşitli değerlendirme testleri ve terapilerde yetkinlik kazanmıştır. Uygulayıcısı olduğu testler arasında Çocuk Değerlendirme Testleri (AGTE, Metropolitan Okul Olgunluğu, Bender Gestalt Görsel Algı Testi), WISC-4 Çocuklar için Zeka Ölçeği, Moxo Dikkat Testi ve CNS Vital Signs Testleri bulunmaktadır.
+                  Eğitimlerini tamamlayarak uzmanlaştığı terapi türleri arasında Bilişsel Davranışsal Oyun Terapisi, Çocuk Merkezli Oyun Terapisi, Filial Terapi ve Kısa Süreli Çözüm Odaklı Terapi yer almaktadır. Ayrıca Deneyimsel Oyun Terapisi ve diğer birçok terapi yönteminde profesyonel uygulayıcıdır.
+                  </p>
+                </div>
+                <div className="professional">
+                  <h3>Sertifikalar ve Katıldığı Eğitimler</h3>
+                  <p>
+                  <ul>
+  <li>Güvenli Yuva: Çocuk ve Ergenle Psikoterapi (Nilüfer Devecigil, 2024)</li>
+  <li>WISC-4 Çocuklar için Zeka Ölçeği Uygulayıcı Eğitimi (Türk Psikologlar Derneği & Giunti Psychometrics, 2024)</li>
+  <li>CNS Vital Signs Bilişsel Performans ve Dikkat Testleri Uygulayıcı Eğitimi (CNS Vital Signs Türkiye, 2024)</li>
+  <li>Deneyimsel Oyun Terapisi (Nilüfer Devecigil, 2023)</li>
+  <li>Moxo Dikkat Testi Süpervizyon Eğitimi (Moxo Türkiye, 2023)</li>
+  <li>Çocuk Değerlendirme Testleri ve Uygulamaları (2023)</li>
+  <li>Özel Eğitim Uzman Öğretici Sertifikası (Milli Eğitim Bakanlığı, 2023)</li>
+  <li>Bilişsel Davranışsal Oyun Terapisi, Çocuk Merkezli Oyun Terapisi, Filial Terapi Uygulayıcı Eğitimi ve Süpervizyonu (Kadir Has Üniversitesi, 2023)</li>
+  <li>Çocuk ve Ergenlerde Bilişsel Davranışsal Terapi Uygulamaları (Dr. Nevin Dölek, 2023)</li>
+  <li>Kısa Süreli Çözüm Odaklı Terapi Uygulayıcı Eğitimi (Dr. Nevin Dölek, 2023)</li>
+  <li>Oyun Terapisinde Ebeveyne Geri Bildirim Vermek (Uzm. Psk. Bahar Çakır, 2023)</li>
+  <li>Travma ve Beden (Pat Ogden & Jennifer Gardner, 2023)</li>
+  <li>Robert Neimeyer ile Kayıp ve Yas Eğitimi (Robert Neimeyer, 2023)</li>
+  <li>Psikolojik İlk Yardım ve Psikoeğitim (Prof. Dr. Özlem Karairmak, 2023)</li>
+  <li>Deprem Sonrası Oyun ve Çocuk (Lawrence Cohen, 2023)</li>
+  <li>Sevgi Dolu Aile Oluşturmak (Lawrence Cohen, 2022)</li>
+  <li>Şefkat Odaklı Terapiyle Kaygının Üstesinden Gelmek (Dr. Dennis Tirch & Dr. Laura Silberstein Tirch, 2021)</li>
+</ul>
+
+                  </p>
+                </div>
+                
+               
+              </div>
             </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee active wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1000ms"
-              >
-                <div className="box-feature">
+          </div>
+        </div>
+      
+      </section>
+      <section className="tf-section tf-teacher-details">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="fx teacher-details">
+                <div className="teacher-infor">
+                  <div className="content">
+                    <h3 className="name">Pelin Elhüseyni</h3>
+                    <p className="job">Psikolog</p>
+                    <p className="sub f-mulish">
+                    Peyus Kids Kurucusu
+                    </p>
+                  </div>
+                  <div className="teacher-social">
+                   
+                    
+                  </div>
+                </div>
+                <div
+                  className="teacher-image wow fadeIn animated"
+                  data-wow-delay="0.3ms"
+                  data-wow-duration="1200ms"
+                >
                   <img
-                    src="assets/images/common/sc-employee-2.jpg"
+                    src="assets/images/common/sc-service-10.jpg"
                     alt="Image"
                   />
                 </div>
-                <div className="box-content st-2">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Roderick M. Neal</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">Arts &amp; Drawing</p>
-                  <div className="social">
-                    <a href="#" className="active">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
+                <div className="teacher-desc">
+                  <ul className="fx m-b17">
+                   
+                    <li>
+                      <span className="f-mulish">
+                      <p>2022 yılında Bahçeşehir Üniversitesi Çocuk Gelişimi bölümünden onur derecesiyle mezun olmuştur. Üniversite yılları boyunca çeşitli anaokullarında ve rehabilitasyon merkezlerinde staj yaparak özel gereksinimli çocuklarla da çalışmıştır. Yaptığı stajlar, onun bu alandaki uzmanlığını pekiştirmiştir.Mezuniyetinden sonra birçok farklı anaokulunda görev almış, bu süreçte çocuk gelişimi alanında çeşitli eğitimler alarak kendini sürekli geliştirmiştir. Okul öncesi dönem çocuklarının gelişim değerlendirmesinde uzmanlaşmıştır. Her çocuğun bireysel ihtiyaçlarına uygun çözümler üretmeyi hedeflemiştir.</p>
+
+                      </span>
+                    </li>
+                  </ul>
+              
+                  <ul className="box">
+                    <li className="list fx">
+                      <span>
+                        <i className="far fa-envelope-open" />
+                      </span>
+                      <span>Email</span>
+                    </li>
+                    <li>peyuskids@gmail.com</li>
+                  </ul>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1200ms"
-              >
-                <div className="box-feature">
-                  <img
-                    src="assets/images/common/sc-employee-3.jpg"
-                    alt="Image"
-                  />
+              <div className="infor-teacher-detail">
+                <div className="experience m-b38">
+                  <h3>Deneyim</h3>
+                  <p>Kurucuları arasında yer aldığı Peyus Kids'te, çocukların gelişim değerlendirmelerini düzenli olarak takip ediyor, oyun atölyeleri düzenliyor, gelişimsel oyun gruplarını planlıyor ve her çocuğun ihtiyaçlarına yönelik bireyselleştirilmiş çalışmalar yapmaktadır. Çocukların potansiyellerini en üst düzeye çıkarmalarına destek olmayı amaçlamaktadır. Bununla beraber, oyun ve öğrenmeyi bir araya getiren çalışmalarıyla çocukların hem gelişimlerine hem de mutluluklarına katkı sağlamayı hedeflemektedir.</p>
+
+                  
                 </div>
-                <div className="box-content st-3">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Frank T. Norman</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">English Teacher</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
+                <div className="professional">
+                  <h3>Yetenekler</h3>
+                  <p>Okul öncesi dönem çocuklarının gelişim değerlendirilmesi, özel gereksinimli çocuklarla çalışma, gelişimsel oyun grupları ve atölyeler düzenleme, bireyselleştirilmiş eğitim çözümleri geliştirme, erken dönemde gelişimsel riskleri tespit etme gibi yeteneklere sahiptir.</p>
+
                 </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1400ms"
-              >
-                <div className="box-feature">
-                  <img
-                    src="assets/images/common/sc-employee-4.jpg"
-                    alt="Image"
-                  />
+                <div className="professional">
+                  <h3>Sertifikalar ve Katıldığı Eğitimler</h3>
+                  <p>SİATT Gelişim Tarama Testi ve Eğitim Programı Uygulayıcı Sertifikası (Psk.Dan. Nilcan Kuleli Sertgil, 2022), 6-24 ay arası bebekler için gelişimsel risk taşıyan bebeklerin erken dönemde tespit edilmesini sağlayan bir programın sertifikasıdır.</p>
+
                 </div>
-                <div className="box-content st-4">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Scott M. Fletcher</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">Science Teacher</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="800ms"
-              >
-                <div className="box-feature">
-                  <img
-                    src="assets/images/common/sc-employee-5.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="box-content st-5">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Herbert D. Malick</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">Computer Teacher</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1000ms"
-              >
-                <div className="box-feature">
-                  <img
-                    src="assets/images/common/sc-employee-6.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="box-content st-1">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Steven S. Mitchell</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">Arts &amp; Drawing</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1200ms"
-              >
-                <div className="box-feature">
-                  <img
-                    src="assets/images/common/sc-employee-7.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="box-content st-7">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Frank T. Norman</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">English Teacher</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1400ms"
-              >
-                <div className="box-feature">
-                  <img
-                    src="assets/images/common/sc-employee-8.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="box-content st-8">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Scott M. Fletcher</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">Science Teacher</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="800ms"
-              >
-                <div className="box-feature">
-                  <img
-                    src="assets/images/common/sc-employee-9.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="box-content st-7">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Herbert D. Malick</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">Computer Teacher</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1000ms"
-              >
-                <div className="box-feature">
-                  <img
-                    src="assets/images/common/sc-employee-12.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="box-content st-3">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Steven S. Mitchell</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">Arts &amp; Drawing</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1200ms"
-              >
-                <div className="box-feature">
-                  <img
-                    src="assets/images/common/sc-employee-10.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="box-content st-2">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Ronald V. White</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">English Teacher</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-              <div
-                className="sc-employee wow fadeInUp animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1400ms"
-              >
-                <div className="box-feature">
-                  <img
-                    src="assets/images/common/sc-employee-11.jpg"
-                    alt="Image"
-                  />
-                </div>
-                <div className="box-content st-1">
-                  <h4 className="name">
-                    <Link href="/teacher-details">
-                      <a className="clr-pri-1">Donald M. Laporte</a>
-                    </Link>
-                  </h4>
-                  <p className="sub f-mulish clr-pri-1">Science Teacher</p>
-                  <div className="social">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </div>
-                </div>
+                
+               
               </div>
             </div>
           </div>
         </div>
       </section>
-      <TfCounter />
-      <section className="tf-section tf-counter2">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="title-heading m-t27 b58">
-                <div className="sub-heading clr-pri-3 f-mulish">
-                  <span className="inner-sub st-2">Best Skills</span>
-                  <RightArrow />
-                </div>
-                <h2 className="title clr-pri-2">
-                  We’re Very Professional and Experience
-                </h2>
-              </div>
-              {/*/.title-heading*/}
-              <div className="wrap-couter fx">
-                <div className="progress-couter firt">
-                  <div className="couter">
-                    <div className="chart">
-                      <DonutChart
-                        value={79}
-                        color={"#FC477E"}
-                        background={"#FFECF2"}
-                      />
-                      <span className="percent">79</span>
-                    </div>
-                    <h4 className="heading-progress">Service Orientation</h4>
-                  </div>
-                </div>
-                <div className="progress-couter two">
-                  <div className="couter">
-                    <div className="chart">
-                      <DonutChart
-                        value={83}
-                        color={"#FAB319"}
-                        background={"#fef7e8"}
-                      />
-                      <span className="percent">83</span>
-                    </div>
-
-                    <h4 className="heading-progress">Time Management</h4>
-                  </div>
-                </div>
-                <div className="progress-couter three">
-                  <div className="couter">
-                    <div className="chart">
-                      <DonutChart
-                        value={68}
-                        color={"#B250FE"}
-                        background={"#f7edff"}
-                      />
-                      <span className="percent">68</span>
-                    </div>
-                    <h4 className="heading-progress">Critical Thinking</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="image text-right">
-                <img
-                  src="assets/images/common/sc-service-9.jpg"
-                  alt="Image"
-                  className="mb-w100"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </Layout>
   );
 };
