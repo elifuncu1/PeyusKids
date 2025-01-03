@@ -4,38 +4,7 @@ const Footer2 = () => {
     <footer id="footer" className="st-2">
       <section className="tf-subcribe-2">
         <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div
-                className="fl-subcribe wow fadeIn   animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1200ms"
-              >
-                <div className="subcribe-wp">
-                  <h2 className="title clr-pri-5">Abone Ol</h2>
-                  <p className="sub f-mulish clr-pri-2">
-                    Okulumuz hakkında en son haberleri ve gelişmeleri almak için lütfen e-posta adresinizi giriniz.
-                  </p>
-                </div>
-                <div className="subcribe-form fx">
-                  <form
-                    onSubmit={(e) => e.preventDefault()}
-                    action="#"
-                    id="subscribe-form"
-                  >
-                    <input
-                      type="email"
-                      id="subscribe-email"
-                      placeholder="E-posta Adresi"
-                    />
-                    <button className="fl-btn st-7" id="subscribe-button">
-                      <span className="inner">Abone Ol</span>
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
       </section>
       <div className="footer-inner st-2">
@@ -79,7 +48,7 @@ const Footer2 = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="widget widget-business">
+                <div className="widget widget-business" style={{ display: 'inline', margin: '0 auto', borderRadius: '8px' }}>
                   <div className="inner">
                     <div className="op-time">
                       <h4 className="title-widget">Açılış Saatleri</h4>
@@ -107,8 +76,8 @@ const Footer2 = () => {
                         
                     </li>
                     <li className="fx">
-                      <Link href="/teachers">
-                      <a className="wd-ctm f-mulish">Öğretmenlerimiz</a>
+                      <Link href="/kurucularimiz">
+                      <a className="wd-ctm f-mulish">Kurucularımız</a>
                       </Link>
                         
                     </li>

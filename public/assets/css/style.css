@@ -152,9 +152,23 @@ html {
 }
 
 body {
-    font-family: 'Salsa', cursive;
+    font-family: 'Salsa', cursive, 'Arial', sans-serif;
     background : var(--primary-color1);
     line-height: 2;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 0) and (min-resolution: .001dpcm) { 
+    /* Firefox hack */
+    body {
+        font-family: 'Salsa', cursive, 'Arial', sans-serif;
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    /* Apple devices */
+    body {
+        font-family: 'Arial', sans-serif; /* Apple cihazlar için alternatif font */
+    }
 }
 
 article,
@@ -1116,14 +1130,14 @@ a:focus {
 } */
 
 #site-header .site-header-inner.st-2 {
-    padding: 1px 0 10px;
-    background-image   : url(../images/background/bg-menu.png);
-    background-repeat  : no-repeat;
-    background-position: center center;
-    backgroundSize: 'cover'; 
+    padding: 1px 0 ;
+    background-color: #f2d5c0;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover; /* Düzeltilmiş: backgroundSize yerine background-size */
     justify-content: center;
     margin-right: -10px;
-} 
+}
 
 #site-header .site-header-inner.st-2 .mainnav.st-2 {
     margin-right: 30px;
@@ -1131,7 +1145,7 @@ a:focus {
 
 /* Top bar */
 .top-bar .inner {
-    background-color: var(--primary-color2);
+    background-color: #F2D5C0;
     line-height: 45px;
 }
 
@@ -1322,7 +1336,7 @@ a:focus {
 }
 
 #mainnav.st-2 .menu li a {
-    color: var(--primary-color1);
+    color: black;
 }
 #mainnav .menu li.current-menu-item > a,
 #mainnav.st-2 .menu li:hover > a {
@@ -1765,7 +1779,7 @@ a:focus {
 #footer h5,
 #footer h6,
 #footer span {
-    color: var(--primary-color1);
+    color: #000;
 }
 
 #footer a:hover {
@@ -1872,7 +1886,7 @@ a:focus {
 }
 
 #footer .title-widget {
-    color: var(--primary-color1);
+    color: black;
     margin-bottom: 12px;
 }
 

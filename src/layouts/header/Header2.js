@@ -27,7 +27,7 @@ const Header2 = () => {
       <div className="top-bar">
         <div className="inner jus-ct">
           <p className="clr-pri-1">
-            Working Jours : Sun - Friday, 08:00 am - 05:00 pm
+            Çalışma Saatleri : Pazartesi - Cuma, 08:00 - 18:00
           </p>
         </div>
       </div>

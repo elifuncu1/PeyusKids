@@ -28,7 +28,7 @@ const Header = () => {
       <div className="top-bar">
         <div className="inner jus-ct">
           <p className="clr-pri-1">
-           Çalışma Saatleri : Pazartesi - Cuma, 08:00 am - 05:00 pm
+           Çalışma Saatleri : Pazartesi - Cuma, 08:00 - 18:00
           </p>
         </div>
       </div>
@@ -40,7 +40,7 @@ const Header = () => {
               <div id="site-logo" className="clearfix" style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', paddingLeft: '25px' }}>
   <Link href="/">
     <a className="logo">
-      <img src="assets/images/logo/logodark.png" alt="Kinco" style={{ maxWidth: '100%', height: 'auto', maxWidth: '150px' }} />
+      <img src="assets/images/logo/logodark.png" alt="Kinco" style={{  width: '250px', height: '200px' }} />
     </a>
   </Link>
 </div>

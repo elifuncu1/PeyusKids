@@ -215,7 +215,7 @@
   border-radius: 7px;
   padding-left: 29px;
   padding-right: 65px;
-  background-color: var(--primary-color3);
+  background-color: #16b11f;
   font-size: 18px;
 }
 
@@ -455,14 +455,13 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   z-index: 100;
   margin: -30px 0 0 -30px;
   background-image: url(../images/Favicon.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-box-sizing: border-box;
+  background-size: contain;
+  -webkit-box-sizing: border-box; 
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;

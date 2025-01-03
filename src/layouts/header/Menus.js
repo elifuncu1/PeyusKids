@@ -4,7 +4,7 @@ import { Fragment } from "react";
 export const Home = () => (
   <Fragment>
     <li>
-      <Link href="/">Anasayfa</Link>
+      <Link href="/">ANASAYFA</Link>
     </li>
     
   </Fragment>
@@ -20,7 +20,7 @@ export const Pages = () => (
 export const Teacher = () => (
   <Fragment>
     <li>
-      <Link href="/teacher">ÖĞRETMENLERİMİZ</Link>
+      <Link href="/kurucularimiz">KURUCULARIMIZ</Link>
     </li>
   
   </Fragment>
@@ -82,7 +82,7 @@ export const Shop = () => (
   </Fragment>
 );
 
-export const About = () => <Link href="/about">Hakkımızda</Link>;
-export const Contact = () => <Link href="/contact">İleTİŞİM</Link>;
-export const Gallery =() =><Link href="/gallery">Galeri</Link>;
+export const About = () => <Link href="/about">HAKKIMIZDA</Link>;
+export const Contact = () => <Link href="/contact">İLETİŞİM</Link>;
+export const Gallery =() =><Link href="/gallery">GALERİ</Link>;
 

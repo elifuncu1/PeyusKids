@@ -30,7 +30,7 @@ const Header1 = () => {
               <div id="site-logo" className="clearfix">
                 <Link href="/">
                   <a className="logo st-2">
-                    <img src="assets/images/logo/mainLogo.png" alt="Kinco" style={{height:"150px"}} />
+                    <img src="assets/images/logo/mainLogo.png" alt="Kinco" style={{height:"200px", width:"300px"}} />
                   </a>
                 </Link>
               </div>

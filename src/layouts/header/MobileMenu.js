@@ -33,7 +33,7 @@ const MobileMenu = () => {
       <div className="top-bar">
         <div className="inner jus-ct">
           <p className="clr-pri-1">
-            Working Jours : Sun - Friday, 08:00 am - 05:00 pm
+            Çalışma Saatleri : Pazartesi - Cuma, 08:00 - 18:00
           </p>
         </div>
       </div>
@@ -156,16 +156,16 @@ const MobileMenu = () => {
         >
           <ul className="menu" id="mainnav">
             <li className="menu-item-has-children">
-              <a href="/">Anasayfa</a>
+              <a href="/">ANASAYFA</a>
             </li>
             <li className="menu-item">
               <About />
             </li>
             <li className="menu-item">
-              <Link href="/teacher">Öğretmenlerimiz</Link>
+              <Link href="/kurucularimiz">KURUCULARIMIZ</Link>
             </li>
             <li className="menu-item">
-              <Link href="/gallery">Galeri</Link>
+              <Link href="/gallery">GALERİ</Link>
             </li>
             <li className="inner">
               <Contact />

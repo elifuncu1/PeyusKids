@@ -4,38 +4,8 @@ const Footer2 = () => {
     <footer id="footer" className="st-2">
       <section className="tf-subcribe-2">
         <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div
-                className="fl-subcribe wow fadeIn   animated"
-                data-wow-delay="0.3ms"
-                data-wow-duration="1200ms"
-              >
-                <div className="subcribe-wp">
-                  <h2 className="title clr-pri-5">Abone Ol</h2>
-                  <p className="sub f-mulish clr-pri-2">
-                    Okulumuz hakkında en son haberleri ve gelişmeleri almak için lütfen e-posta adresinizi giriniz.
-                  </p>
-                </div>
-                <div className="subcribe-form fx">
-                  <form
-                    onSubmit={(e) => e.preventDefault()}
-                    action="#"
-                    id="subscribe-form"
-                  >
-                    <input
-                      type="email"
-                      id="subscribe-email"
-                      placeholder="E-posta Adresi"
-                    />
-                    <button className="fl-btn st-7" id="subscribe-button">
-                      <span className="inner">Abone Ol</span>
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+
+
         </div>
       </section>
       <div className="footer-inner st-2">
@@ -56,9 +26,7 @@ const Footer2 = () => {
 </Link>
 
                   </div>
-                  <p className="wrap f-mulish">
-                    Okulumuz, Maltepe ilçesinde en başarılı okullardan biridir.
-                  </p>
+
                   <div className="list-contact">
                     <ul>
                       <li className="fx">
@@ -88,7 +56,7 @@ const Footer2 = () => {
                           <span className="f-mulish">Pzt - Cuma</span>
                         </li>
                         <li>
-                          <span className="f-mulish">08 am - 05 pm</span>
+                          <span className="f-mulish">08:00 - 18:00</span>
                         </li>
                       </ul>
                     </div>
@@ -102,28 +70,16 @@ const Footer2 = () => {
                   <h4 className="title-widget">Programlarımız</h4>
                   <ul className="list-link">
                     <li className="fx">
-                        <a className="wd-ctm f-mulish">Sanat ve Resim</a>
+                        <a className="wd-ctm f-mulish">Oyun Atölyeleri</a>
                     </li>
                     <li className="fx">
-                        <a className="wd-ctm f-mulish">Bilgisayar Eğitimi</a>
+                        <a className="wd-ctm f-mulish">Gelişim Değerlendirmesi</a>
                     </li>
                     <li className="fx">
-                        <a className="wd-ctm f-mulish">Sayısal Matematik</a>
+                        <a className="wd-ctm f-mulish">Biingual (Çift Dilli) Oyun Grupları</a>
                     </li>
                     <li className="fx">
-
-                        <a className="wd-ctm f-mulish">Fizik Eğitimi</a>
-                    </li>
-                    <li className="fx">
-
-                        <a className="wd-ctm f-mulish">Genel Bilgi</a>
-                    </li>
-                    <li className="fx">
-
-                        <a className="wd-ctm f-mulish">İngilizce</a>
-                    </li>
-                    <li className="fx">
-                        <a className="wd-ctm f-mulish">Sosyal Bilgiler</a>
+                        <a className="wd-ctm f-mulish">Danışmanlık</a>
                     </li>
                   </ul>
                 </div>

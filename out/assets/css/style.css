@@ -1117,7 +1117,7 @@ a:focus {
 
 #site-header .site-header-inner.st-2 {
     padding: 1px 0 10px;
-    background-image   : url(../images/background/bg-menu.png);
+    background-color: #d0dcce;
     background-repeat  : no-repeat;
     background-position: center center;
     justify-content: center;

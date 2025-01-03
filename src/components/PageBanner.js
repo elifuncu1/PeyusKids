@@ -18,11 +18,7 @@ const PageBanner = ({ pageName, pageTitle }) => {
         className="bg-inner2"
         alt=""
       />
-      <img
-        src="assets/images/background/img3innerpage.png"
-        className="bg-inner3"
-        alt=""
-      />
+
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -32,7 +28,7 @@ const PageBanner = ({ pageName, pageTitle }) => {
                 <ul className="jus-ct">
                   <li>
                     <Link href="/">
-                      <a className="f-rubik">Home</a>
+                      <a className="f-rubik">Ana Sayfa</a>
                     </Link>
                   </li>
                   <li>

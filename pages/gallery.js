@@ -15,11 +15,11 @@ const Gallery = () => {
               <div className="title-heading st-4">
                 <div className="sub-heading clr-pri-3 f-mulish">
                   <LeftArrow />
-                  <span className="inner-sub st-1">Foroğraf Galerisi</span>
+                  <span className="inner-sub st-1">Fotoğraf Galerisi</span>
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
-                 Sınıfımız &amp; Öğrencilerimiz
+                Oyun Atölyemiz
                 </h2>
               </div>
             </div>

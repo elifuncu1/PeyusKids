@@ -13,12 +13,10 @@ const TestimonialSlider = () => {
         >
           <div className="coustom-padding">
             <div className="heading fx">
-              <div className="box-avt">
-                <img src="assets/images/thumbnails/avt-quote.jpg" alt="Image" />
-              </div>
+
               <ul>
                 <li>
-                  <h4 className="name-author clr-pri-2">Helin Elhuseyni</h4>
+                  <h4 className="name-author clr-pri-2">Helin Elhüseyni</h4>
                 </li>
                 <li>
                   <p className="clr-pri-5 f-mulish">Psikolog</p>
@@ -42,18 +40,13 @@ const TestimonialSlider = () => {
         >
           <div className="coustom-padding">
             <div className="heading fx">
-              <div className="box-avt">
-                <img
-                  src="assets/images/thumbnails/avt-quote-2.jpg"
-                  alt="Image"
-                />
-              </div>
+
               <ul>
                 <li>
-                  <h4 className="name-author clr-pri-2">Pelin Elhuseyni</h4>
+                  <h4 className="name-author clr-pri-2">Pelin Elhüseyni</h4>
                 </li>
                 <li>
-                  <p className="clr-pri-5 f-mulish">Psikolog</p>
+                  <p className="clr-pri-5 f-mulish">Çocuk Gelişimci</p>
                 </li>
               </ul>
             </div>
