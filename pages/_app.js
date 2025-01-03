@@ -35,7 +35,7 @@ const App = ({ Component, pageProps }) => {
         <meta name="twitter:description" content="Peyus Kids - Çocuklar için eğlenceli ve eğitici oyun atölyemiz." />
         <meta name="twitter:image" content="assets/images/twitter-image.png" />
       </Head>
-      <div class="whatsapp-container">
+      <div className="whatsapp-container">
       <a href="https://wa.me/905300993570" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/whatsapp.png" alt="WhatsApp" width="60" height="60" style={{zIndex:"9999",position:"fixed",bottom:"20px",left:"20px"}}/>
       </a>
