@@ -3181,8 +3181,23 @@
   justify-content: center;
   padding-top: 60px;
   padding-bottom: 8px;
+  /* Mobil cihazlar için daha fazla boşluk ekleyin */
+  padding-left: 10px;
+  padding-right: 10px;
+  /* Noktaların boyutunu artırın */
+  font-size: 14px;
 }
-
+@media (max-width: 768px) {
+  .slider-fb .swiper .owl-dots {
+    display: flex !important; /* Mobilde görünür hale getirin */
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+}
 .slider-fb .swiper .swiper-pagination-bullet {
   width: 8px;
   height: 8px;

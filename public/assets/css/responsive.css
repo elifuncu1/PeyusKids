@@ -665,6 +665,8 @@
     }
     .inner-page .bg-inner1 {
         max-width: 35%;
+        left: 160px;
+        position: absolute;
     }
     .sc-discovery-about .col-discovery {
         width: calc(50% - 30px);

@@ -32,11 +32,7 @@ const Index = () => {
             <div className="col-12">
               <div className="slider-1">
                 <div className="themesflat-carousel clearfix">
-                  <Swiper
-                    {...heroSlider}
-                    className="owl-carousel owl-theme none dots-none"
-                  >
-                    <SwiperSlide className="owl-item">
+
                       <div className="item-slider-1">
                         <div className="box-content">
                           <div className="sub clr-pri-2" style={{color: "#887355"}}>
@@ -87,8 +83,7 @@ const Index = () => {
                           </div>
                         </div>
                       </div>
-                    </SwiperSlide>
-                  </Swiper>
+
                 </div>
                 {/*/.themesflat-carousel*/}
               </div>
@@ -113,7 +108,7 @@ const Index = () => {
                 </div>
                 <h2 className="title clr-pri-2">
                   Eğitmenlerimiz okul öncesi eğitim hakkında{" "}
-                  <span className="clr-pri-3">PeyusKids&apos;i</span> Neden Öneriyor
+                  <span className="clr-pri-3">Peyus Kids&apos;i</span> Neden Öneriyor
                 </h2>
               </div>
             </div>
@@ -140,7 +135,7 @@ const Index = () => {
                   <RightArrowWhite />
                 </div>
                 <h2 className="title clr-pri-1">
-                  İnsanların Neden PeyusKids&apos;i Tercih Ettiğini Şimdi Keşfedin
+                  İnsanların Neden Peyus Kids&apos;i Tercih Ettiğini Şimdi Keşfedin
                 </h2>
               </div>
             </div>
@@ -174,8 +169,7 @@ const Index = () => {
                     </a>
                   </h4>
                   <p className="wrap f-mulish">
-                  Alanında bilgili psikolog ve çocuk gelişimci uzmanlarımız
-                  Her çocuğun ihtiyacına yönelik yol haritası.
+                  Alanında bilgili psikolog ve çocuk gelişimci uzmanlarımız her çocuğun ihtiyacına yönelik yol haritası oluşturuyor.
 
                   </p>
                 </div>
@@ -211,7 +205,7 @@ const Index = () => {
                     </a>
                   </h4>
                   <p className="wrap f-mulish">
-                  Katılımcıların yaratıcı düşünme ve problem çözme becerilerini geliştirdiği interaktif etkinliklerdir.
+                  Çocukların yaşlarına göre göstermeleri gereken ince motor, kaba motor ve dil-bilişsel gelişim gibi gelişimsel beceriler değerlendirilir.
                   </p>
                 </div>
               </div>

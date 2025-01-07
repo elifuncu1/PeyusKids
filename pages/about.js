@@ -22,9 +22,6 @@ const About = () => {
               <span className="inner-sub st-2">Hakkımızda</span>
               <RightArrow />
             </div>
-            <h2 className="title clr-pri-2">
-              Akıllı Bir Şekilde Öğreniyoruz, Parlak Bir Gelecek İnşa Ediyoruz
-            </h2>
           </div>
           <div className="inner">
             <p className="clr-pri-2" data-wow-delay="0.3ms" data-wow-duration="1000ms">
