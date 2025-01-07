@@ -25,19 +25,16 @@ const Footer2 = () => {
 </Link>
 
                   </div>
-                  <p className="wrap f-mulish">
-                    Okulumuz, Maltepe ilçesinde en başarılı okullardan biridir.
-                  </p>
                   <div className="list-contact">
                     <ul>
-                      <li className="fx">
-                        <span>
-                          <i className="far fa-map-marker-alt" /> Piazza Konutları Maltepe
-                        </span>
+                    <li className="fx">
+                        <a href="https://www.instagram.com/peyuskids" target="_blank" rel="noopener noreferrer">
+                          <i className="fab fa-instagram" /> Instagram
+                        </a>
                       </li>
                       <li className="fx">
-                        <a href="mailto:hotline@gmail.com">
-                          <i className="far fa-envelope" /> info@peyuskids.com
+                        <a href="mailto:peyuskids@gmail.com">
+                          <i className="far fa-envelope" /> peyuskids@gmail.com
                         </a>
                       </li>
                       <li className="fx">
@@ -54,42 +51,34 @@ const Footer2 = () => {
                       <h4 className="title-widget">Açılış Saatleri</h4>
                       <ul>
                         <li>
-                          <span className="f-mulish">Pzt - Cuma</span>
+                          <span className="f-mulish">Pazartesi - Pazar</span>
                         </li>
                         <li>
-                          <span className="f-mulish">08 am - 05 pm</span>
+                          <span className="f-mulish">09:00 - 18:00</span>
                         </li>
                       </ul>
                     </div>
                     <div className="cls-time">
-                      <p>Cumartesi ve Pazar Tatili</p>
-                      <h4 className="title-widget">Kapalı</h4>
+                      <p>Adres</p>
+                      <h4 style={{fontSize: "12px"}}>Cevizli Mah. Tugay Yolu Cad. Piazza Konutları
+                      No:69-B Daire:8 Kat:4 Maltepe/İstanbul</h4>
                     </div>
                   </div>
                 </div>
                 <div className="widget widget-link">
+                  <h4 className="title-widget">Programlarımız</h4>
                   <ul className="list-link">
                     <li className="fx">
-                      <Link href="/about">
-                      <a className="wd-ctm f-mulish">Hakkımızda</a>
-                      </Link>
-                        
+                        <a className="wd-ctm f-mulish">Oyun Atölyeleri</a>
                     </li>
                     <li className="fx">
-                      <Link href="/kurucularimiz">
-                      <a className="wd-ctm f-mulish">Kurucularımız</a>
-                      </Link>
-                        
+                        <a className="wd-ctm f-mulish">Gelişim Değerlendirmesi</a>
                     </li>
                     <li className="fx">
-                      <Link href="/gallery">
-                      <a className="wd-ctm f-mulish">Galeri</a>
-                      </Link>
+                        <a className="wd-ctm f-mulish">Biingual (Çift Dilli) Oyun Grupları</a>
                     </li>
                     <li className="fx">
-                      <Link href="/contact">
-                      <a className="wd-ctm f-mulish">İletişim</a>
-                      </Link>
+                        <a className="wd-ctm f-mulish">Danışmanlık</a>
                     </li>
                   </ul>
                 </div>

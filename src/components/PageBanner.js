@@ -4,35 +4,34 @@ const PageBanner = ({ pageName, pageTitle }) => {
     <section className="tf-page-title">
       <div className="overlay-bg" />
       <img
-    src="assets/images/background/img1innerpage.png"
+    src="assets/images/header-icon3.png"
     className="bg-inner1"
     alt=""
   />
       <img
-        src="assets/images/background/img1innerpage.png"
-        className="bg-inner1"
+        src="assets/images/Favicon.png"
+        className="bg-inner3"
         alt=""
-      />
-      <img
-        src="assets/images/background/img2innerpage.png"
-        className="bg-inner2"
-        alt=""
+        style={{
+          
+          
+        }}
       />
 
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="page-title inner">
-              <h1 className="title">{pageTitle ? pageTitle : pageName}</h1>
+              <h1 style={{color: "#bbdaa8"}} className="title">{pageTitle ? pageTitle : pageName}</h1>
               <div className="breadcrumbs">
                 <ul className="jus-ct">
                   <li>
                     <Link href="/">
-                      <a className="f-rubik">Ana Sayfa</a>
+                      <a style={{color: "#bbdaa8"}} className="f-rubik">Ana Sayfa</a>
                     </Link>
                   </li>
                   <li>
-                    <p className="breadcrumbs-inner f-rubik">{pageName}</p>
+                    <p className="breadcrumbs-inner f-rubik" style={{color: "#bbdaa8"}}>{pageName}</p>
                   </li>
                 </ul>
               </div>

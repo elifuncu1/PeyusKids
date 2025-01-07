@@ -9,15 +9,14 @@ const Teacher = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-32">
-              
               <div className="infor-teacher-detail">
-              <div className="experience m-b38">
-              <h3 className="name" style={{ textAlign: "left" }}>Helin Elhüseyni</h3>
-                    <p className="job" style={{ textAlign: "left", fontSize: "16px",fontWeight:"bold" }}>Psikolog</p>
-                    <p className="sub f-mulish" style={{ textAlign: "left", fontSize: "16px" }}>
-                      Peyus Kids Kurucusu
-                    </p>
-                    <p>Helin Elhüseyni, 2023 yılında Maltepe Üniversitesi Psikoloji (İngilizce) bölümünden yüksek onur derecesiyle mezun olmuştur ve şu anda Işık Üniversitesi’nde Klinik Psikoloji alanında uzmanlık çalışmalarını sürdürmektedir. Peyus Kids’in kurucusu olarak, çocukların bireysel ihtiyaçlarını anlamayı ve onlara bilimsel, yaratıcı ve bütüncül yaklaşımlar sunmayı hedeflemektedir. Çocukların gelişimlerini takip ederken, aileleri de sürece dahil ederek güven ve iş birliği temelinde bir danışmanlık anlayışı benimsemektedir.</p>
+                <div className="experience">
+                  <h3 className="name" style={{ textAlign: "left" }}>Helin Elhüseyni</h3>
+                  <p className="job" style={{ textAlign: "left", fontSize: "16px", fontWeight: "bold" }}>Psikolog</p>
+                  <p className="sub f-mulish" style={{ textAlign: "left", fontSize: "16px" }}>
+                    Peyus Kids Kurucusu
+                  </p>
+                  <p>Helin Elhüseyni, 2023 yılında Maltepe Üniversitesi Psikoloji (İngilizce) bölümünden yüksek onur derecesiyle mezun olmuştur ve şu anda Işık Üniversitesi’nde Klinik Psikoloji alanında uzmanlık çalışmalarını sürdürmektedir. Peyus Kids’in kurucusu olarak, çocukların bireysel ihtiyaçlarını anlamayı ve onlara bilimsel, yaratıcı ve bütüncül yaklaşımlar sunmayı hedeflemektedir. Çocukların gelişimlerini takip ederken, aileleri de sürece dahil ederek güven ve iş birliği temelinde bir danışmanlık anlayışı benimsemektedir.</p>
 
                 </div>
                 <div className="experience m-b38">
@@ -55,26 +54,13 @@ const Teacher = () => {
                   </p>
                 </div>
 
+                <div className="experience m-b38">
+                  <h3 className="name" style={{ textAlign: "left" }}>Pelin Elhüseyni</h3>
+                  <p className="job" style={{ textAlign: "left", fontSize: "16px", fontWeight: "bold" }}>Çocuk Gelişimci</p>
+                  <p className="sub f-mulish" style={{ textAlign: "left", fontSize: "16px" }}>
+                    Peyus Kids Kurucusu
+                  </p>
 
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-      <section className="tf-section tf-teacher-details">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              
-              <div className="infor-teacher-detail">
-              <div className="experience m-b38">
-              <h3 className="name" style={{ textAlign: "left" }}>Pelin Elhüseyni</h3>
-                    <p className="job" style={{ textAlign: "left", fontSize: "16px",fontWeight:"bold" }}>Çocuk Gelişimi</p>
-                    <p className="sub f-mulish" style={{ textAlign: "left", fontSize: "16px" }}>
-                      Peyus Kids Kurucusu
-                    </p>
-                    
 
                 </div>
                 <div className="experience m-b38">
@@ -87,14 +73,12 @@ const Teacher = () => {
 
 
                 </div>
-
-
               </div>
             </div>
           </div>
         </div>
-      </section>
 
+      </section>
     </Layout>
   );
 };

@@ -1542,7 +1542,7 @@ a:focus {
 .inner-page .btn-menu:before, 
 .inner-page .btn-menu:after, 
 .inner-page .btn-menu span {
-    background-color  : #fff;
+    background-color  : black;
 }
 .btn-menu {
 	display           : none;

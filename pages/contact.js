@@ -1,7 +1,6 @@
 import PageBanner from "../src/components/PageBanner";
 import { LeftArrow, RightArrow } from "../src/Icons";
 import Layout from "../src/layouts/Layout";
-
 const Contact = () => {
   return (
     <Layout bodyClass={"contact"}>
@@ -88,6 +87,16 @@ const Contact = () => {
                   <div className="content">
                     <p>Telefon</p>
                     <h4>+012 (345) 678</h4>
+                  </div>
+                </div>
+                <div className="fx instagram">
+                  <div className="icon">
+                    <img src="/assets/images/background/instagram-seeklogo.svg" alt="Instagram" />
+
+                  </div>
+                  <div className="content">
+                    <p>Instagram</p>
+                    <h4>@peyuskids</h4>
                   </div>
                 </div>
               </div>
