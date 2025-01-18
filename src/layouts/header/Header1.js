@@ -77,7 +77,7 @@ const Header1 = () => {
                   </svg>
                   <ul>
                     <li className="clr-pri-4">Telefon</li>
-                    <li className="clr-pri-2">+012 (345) 678</li>
+                    <li className="clr-pri-2">+90 (551) 502 8121</li>
                   </ul>
                 </div>
                 <a

@@ -39,7 +39,7 @@ const Footer2 = () => {
                       </li>
                       <li className="fx">
                         <a href="tel:012345678">
-                          <i className="fal fa-phone" /> +012 (345) 678
+                          <i className="fal fa-phone" /> +90 (551) 502 8121
                         </a>
                       </li>
                     </ul>

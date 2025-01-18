@@ -86,7 +86,7 @@ const Contact = () => {
                   </div>
                   <div className="content">
                     <p>Telefon</p>
-                    <h4>+012 (345) 678</h4>
+                    <h4>+90 (551) 502 8121</h4>
                   </div>
                 </div>
                 <div className="fx instagram">
