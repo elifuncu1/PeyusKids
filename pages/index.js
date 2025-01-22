@@ -43,7 +43,7 @@ const Index = () => {
                           </div>
                           <div className="box-custom">
 
-                            
+                          <img style={{position: "absolute", top: "30%", left: "60%", width: "175px", height: "200px"}} src="/assets/images/Favicon.png"/>
                           </div>
                           <ul>
                             <li className="st-1 fx">
