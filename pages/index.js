@@ -56,7 +56,7 @@ const Index = () => {
                             </li>
                             <li className="st-3 fx">
                               <i className="fas fa-check" />
-                              <p className="clr-pri-2">Biingual (Çift Dilli) Oyun Grupları</p>
+                              <p className="clr-pri-2">Bilingual (Çift Dilli) Oyun Grupları</p>
                             </li>
                             <li className="st-3 fx">
                               <i className="fas fa-check" />
@@ -103,12 +103,12 @@ const Index = () => {
               <div className="title-heading st-3">
                 <div className="sub-heading clr-pri-3 f-mulish">
                   <LeftArrow />
-                  <span className="inner-sub st-1">Eğitmenlerimizden Notlar</span>
+                  <span className="inner-sub st-1" style={{color: "#8cee54cc"}}>Eğitmenlerimizden Notlar</span>
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
                   Eğitmenlerimiz okul öncesi eğitim hakkında{" "}
-                  <span className="clr-pri-3">Peyus Kids&apos;i</span> Neden Öneriyor
+                  <span className="clr-pri-3" style={{color: "#8cee54cc"}}>Peyus Kids&apos;i</span> Neden Öneriyor
                 </h2>
               </div>
             </div>
