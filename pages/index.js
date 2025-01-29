@@ -35,17 +35,22 @@ const Index = () => {
 
                       <div className="item-slider-1">
                         <div className="box-content">
-                          <div className="sub clr-pri-2" style={{color: "#887355"}}>
+                          <div className="sub clr-pri-2" style={{color: "#887355",fontFamily: "Caveat", }}>
                           Hayal gücünün ötesine geçen
                           </div>
-                          <div className="title clr-pri-2" style={{color: "#887355"}}>
-                            oyunlar ve keşifler!
+                          <br/>
+                          <div className="title clr-pri-2" style={{color: "#887355", fontFamily: "Caveat", }}>
+                            Oyunlar ve Keşifler!
                           </div>
                           <div className="box-custom">
 
                           <img style={{position: "absolute", top: "30%", left: "60%", width: "175px", height: "200px"}} src="/assets/images/Favicon.png"/>
                           </div>
                           <ul>
+                            <li className="st-1 fx">
+                              <i className="fas fa-check" />
+                              <p className="clr-pri-2">Oyun Grupları</p>
+                            </li>
                             <li className="st-1 fx">
                               <i className="fas fa-check" />
                               <p className="clr-pri-2">Oyun Atölyeleri</p>
@@ -102,14 +107,9 @@ const Index = () => {
             <div className="col-12">
               <div className="title-heading st-3">
                 <div className="sub-heading clr-pri-3 f-mulish">
-                  <LeftArrow />
-                  <span className="inner-sub st-1" style={{color: "#8cee54cc"}}>Eğitmenlerimizden Notlar</span>
-                  <RightArrow />
+                  <span className="inner-sub st-1" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "48px"}}>Eğitmenlerimizden Notlar</span>
                 </div>
-                <h2 className="title clr-pri-2">
-                  Eğitmenlerimiz okul öncesi eğitim hakkında{" "}
-                  <span className="clr-pri-3" style={{color: "#8cee54cc"}}>Peyus Kids&apos;i</span> Neden Öneriyor
-                </h2>
+
               </div>
             </div>
             <div className="col-12 pd0-135">

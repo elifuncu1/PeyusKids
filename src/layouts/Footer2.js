@@ -31,7 +31,7 @@ const Footer2 = () => {
                     <ul>
                     <li className="fx">
                         <a href="https://www.instagram.com/peyuskids" target="_blank" rel="noopener noreferrer">
-                          <i className="fab fa-instagram" /> Instagram
+                          <i className="fab fa-instagram" /> @peyuskids
                         </a>
                       </li>
                       <li className="fx">
@@ -40,7 +40,7 @@ const Footer2 = () => {
                         </a>
                       </li>
                       <li className="fx">
-                        <a href="tel:012345678">
+                        <a href="tel:05515028121">
                           <i className="fal fa-phone" /> +90 (551) 502 8121
                         </a>
                       </li>
@@ -77,7 +77,7 @@ const Footer2 = () => {
                         <a className="wd-ctm f-mulish">Gelişim Değerlendirmesi</a>
                     </li>
                     <li className="fx">
-                        <a className="wd-ctm f-mulish">Biingual (Çift Dilli) Oyun Grupları</a>
+                        <a className="wd-ctm f-mulish">Bilingual (Çift Dilli) Oyun Grupları</a>
                     </li>
                     <li className="fx">
                         <a className="wd-ctm f-mulish">Danışmanlık</a>

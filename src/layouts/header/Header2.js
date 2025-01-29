@@ -187,7 +187,7 @@ const Header2 = () => {
                         </g>
                       </svg>
                       <ul>
-                        <li className="clr-pri-2">Hotline</li>
+                        <li className="clr-pri-2">Telefon</li>
                         <li className="clr-pri-2">+90 (551) 502 8121</li>
                       </ul>
                     </div>

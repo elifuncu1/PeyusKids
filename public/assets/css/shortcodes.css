@@ -117,7 +117,7 @@
   border-radius: 7px;
   padding-left: 29px;
   padding-right: 65px;
-  background-color: var(--primary-color2);
+  background-color: #4e71d2;
   font-size: 18px;
 }
 
@@ -1650,7 +1650,7 @@
 }
 
 .item-slider-1 .box-content ul li p {
-  font-size: 20px;
+  font-size: 22px;
   padding-left: 10px;
 }
 
@@ -3547,7 +3547,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Salsa", cursive;
+  font-family: "Salsa", asdasd;
   font-size: 42px;
   font-weight: 400;
   display: inline-block;

@@ -12,7 +12,7 @@ const PhotoGallerySlider = () => {
           data-wow-duration="1200ms"
         >
           <img src="assets/images/common/sc-gallery-6.jpg" alt="Image" />
-          <div className="overlay">
+          <div className="">
             <div className="inner-overlay">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

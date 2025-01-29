@@ -13,11 +13,7 @@ const Gallery = () => {
           <div className="row">
             <div className="col-12">
               <div className="title-heading st-4">
-                <div className="sub-heading clr-pri-3 f-mulish">
-                  <LeftArrow />
-                  <span className="inner-sub st-1">Fotoğraf Galerisi</span>
-                  <RightArrow />
-                </div>
+
                 <h2 className="title clr-pri-2">
                 Oyun Atölyemiz
                 </h2>

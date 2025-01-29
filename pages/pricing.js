@@ -393,7 +393,7 @@ const Pricing = () => {
                       </g>
                     </svg>
                     <ul>
-                      <li className="clr-pri-1">Hotline</li>
+                      <li className="clr-pri-1">Telefon</li>
                       <li className="clr-pri-1">+90 (551) 502 8121</li>
                     </ul>
                   </div>

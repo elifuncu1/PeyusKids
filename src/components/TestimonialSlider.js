@@ -19,7 +19,7 @@ const TestimonialSlider = () => {
                   <h4 className="name-author clr-pri-2">Helin Elhüseyni</h4>
                 </li>
                 <li>
-                  <p className="clr-pri-5 f-mulish" style={{color: "#34eb4f", fontWeight: "bold"}}>Psikolog</p>
+                  <p className="clr-pri-5 f-mulish" style={{color: "#e9857a", fontWeight: "bold"}}>Psikolog</p>
                 </li>
               </ul>
             </div>
@@ -46,7 +46,7 @@ const TestimonialSlider = () => {
                   <h4 className="name-author clr-pri-2">Pelin Elhüseyni</h4>
                 </li>
                 <li>
-                  <p className="clr-pri-5 f-mulish" style={{color: "#34eb4f", fontWeight: "bold"}}>Çocuk Gelişimci</p>
+                  <p className="clr-pri-5 f-mulish" style={{color: "#e9857a", fontWeight: "bold"}}>Çocuk Gelişimci</p>
                 </li>
               </ul>
             </div>

@@ -4,7 +4,7 @@ export const activeNavMenu = (path) => {
   navItem.forEach((nav) => {
     if (nav.pathname === window.location.pathname) {
       if (!nav.href.includes("#")) {
-        if (nav.pathname === "/contact" || nav.pathname === "/about") {
+        if (nav.pathname === "/contact") {
           nav.parentElement.className = "current-menu-item";
         } else {
           nav.parentElement.className = "inner-current-item";

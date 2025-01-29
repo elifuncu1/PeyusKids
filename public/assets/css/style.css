@@ -152,7 +152,7 @@ html {
 }
 
 body {
-    font-family: 'Salsa', cursive, 'Arial', sans-serif;
+    font-family: 'Inter', 'ss' 'Arial', sans-serif;
     background : var(--primary-color1);
     line-height: 2;
 }
@@ -160,7 +160,7 @@ body {
 @media only screen and (min--moz-device-pixel-ratio: 0) and (min-resolution: .001dpcm) { 
     /* Firefox hack */
     body {
-        font-family: 'Salsa', cursive, 'Arial', sans-serif;
+        font-family: 'Inter', asdas, 'Arial', sans-serif;
     }
 }
 
@@ -1214,7 +1214,7 @@ a:focus {
 }
 
 .inner-contact ul li:last-child {
-    font-size: 22px;
+    font-size: 13px;
 }
 
 .header-contact {

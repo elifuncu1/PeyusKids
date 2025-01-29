@@ -16,11 +16,12 @@ const Teacher = () => {
                   <p className="sub f-mulish" style={{ textAlign: "left", fontSize: "16px" }}>
                     Peyus Kids Kurucusu
                   </p>
+                  <h4 style={{}}>Hakkında</h4>
                   <p>Helin Elhüseyni, 2023 yılında Maltepe Üniversitesi Psikoloji (İngilizce) bölümünden yüksek onur derecesiyle mezun olmuştur ve şu anda Işık Üniversitesi’nde Klinik Psikoloji alanında uzmanlık çalışmalarını sürdürmektedir. Peyus Kids’in kurucusu olarak, çocukların bireysel ihtiyaçlarını anlamayı ve onlara bilimsel, yaratıcı ve bütüncül yaklaşımlar sunmayı hedeflemektedir. Çocukların gelişimlerini takip ederken, aileleri de sürece dahil ederek güven ve iş birliği temelinde bir danışmanlık anlayışı benimsemektedir.</p>
 
                 </div>
                 <div className="experience m-b38">
-                  <h3>Deneyim</h3>
+                  
                   <p>
                     Lisans hayatı boyunca Helin Elhüseyni, Tuzla Devlet Hastanesi, Erenköy Ruh ve Sinir Hastalıkları Hastanesi, Sancaktepe Toplum Ruh Sağlığı Merkezi, Uğur Mumcu Toplum Ruh Sağlığı Merkezi gibi yerlerde klinik gözlem ve stajlar yapmıştır. Ayrıca, SOYAÇ ve MA-TİN gibi araştırma merkezlerinde gönüllü çalışmalarda bulunmuştur. Hem psikiyatri servislerinde hem de psikolojik danışmanlık merkezlerinde deneyim kazanmıştır. Çocuk gelişim grupları ve oyun atölyeleri düzenleyerek, bu alanlarda uzmanlaşmıştır.Helin Elhüseyni, çeşitli değerlendirme testleri ve terapilerde yetkinlik kazanmıştır. Uygulayıcısı olduğu testler arasında Çocuk Değerlendirme Testleri (AGTE, Metropolitan Okul Olgunluğu, Bender Gestalt Görsel Algı Testi), WISC-4 Çocuklar için Zeka Ölçeği, Moxo Dikkat Testi ve CNS Vital Signs Testleri bulunmaktadır.
                     Eğitimlerini tamamlayarak uzmanlaştığı terapi türleri arasında Bilişsel Davranışsal Oyun Terapisi, Çocuk Merkezli Oyun Terapisi, Filial Terapi ve Kısa Süreli Çözüm Odaklı Terapi yer almaktadır. Ayrıca Deneyimsel Oyun Terapisi ve diğer birçok terapi yönteminde profesyonel uygulayıcıdır.
@@ -29,7 +30,7 @@ const Teacher = () => {
                 </div>
 
                 <div className="professional">
-                  <h3>Sertifikalar ve Katıldığı Eğitimler</h3>
+                  <h4>Sertifikalar ve Katıldığı Eğitimler</h4>
                   <p>
                     <ul>
                       <li>Güvenli Yuva: Çocuk ve Ergenle Psikoterapi (Nilüfer Devecigil, 2024)</li>
@@ -64,7 +65,7 @@ const Teacher = () => {
 
                 </div>
                 <div className="experience m-b38">
-                  <h3>Hakkında</h3>
+                  <h4>Hakkında</h4>
                   <p>2022 yılında Bahçeşehir Üniversitesi Çocuk Gelişimi bölümünden onur derecesiyle mezun olmuştur. Üniversite yılları boyunca çeşitli anaokullarında ve rehabilitasyon merkezlerinde staj yaparak özel gereksinimli çocuklarla da çalışmıştır. Yaptığı stajlar, onun bu alandaki uzmanlığını pekiştirmiştir.
                     Mezuniyetinden sonra birçok farklı anaokulunda görev almış, bu süreçte çocuk gelişimi alanında çeşitli eğitimler alarak kendini sürekli geliştirmiştir. Okul öncesi dönem çocuklarının gelişim değerlendirmesinde uzmanlaşmıştır. Her çocuğun bireysel ihtiyaçlarına uygun çözümler üretmeyi hedeflemiştir.
                     6-24 ay arası bebekler için kullanılan ve gelişimsel risk taşıyan bebeklerin erken dönemde tespit edilmesini sağlayan SİATT Gelişim Tarama Testi ve Eğitim Programı&apos;nı başarıyla tamamlayarak Psk.Dan. Nilcan Kuleli Sertgil tarafından uygulayıcı sertifikasını almıştır. Bu sayede, erken müdahale gerektiren durumları belirleyip bebeklerin sağlıklı gelişimini destekleme konusunda uzmanlaşmıştır. Gölge Oyunları, Kum Oyunları, Masal Anlatıcılığı, Sanat Terapisi, Yaratıcı Drama gibi eğitimler almışlar ve tüm bunları birleştirerek çocuklarla çalışmaktadır.

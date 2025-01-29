@@ -86,7 +86,7 @@ const Contact = () => {
                   </div>
                   <div className="content">
                     <p>Telefon</p>
-                    <h4>+90 (551) 502 8121</h4>
+                    <h4><a href="tel:+905515028121">+90 (551) 502 8121</a></h4>
                   </div>
                 </div>
                 <div className="fx instagram">
@@ -96,7 +96,7 @@ const Contact = () => {
                   </div>
                   <div className="content">
                     <p>Instagram</p>
-                    <h4>@peyuskids</h4>
+                    <h4><a href="https://www.instagram.com/peyuskids/" target="_blank" rel="noopener noreferrer">@peyuskids</a></h4>
                   </div>
                 </div>
               </div>
