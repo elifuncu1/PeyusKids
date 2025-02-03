@@ -9,6 +9,7 @@ import {
   Home,
   Pages,
   Program,
+  Services,
   Shop,
   Teacher,
 } from "./Menus";
@@ -160,6 +161,9 @@ const MobileMenu = () => {
             </li>
             <li className="menu-item">
               <About />
+            </li>
+            <li className="menu-item">
+              <Services />
             </li>
             <li className="menu-item">
               <Link href="/kurucularimiz">KURUCULARIMIZ</Link>

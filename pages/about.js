@@ -19,7 +19,7 @@ const About = () => {
         <div className="sc-about-2 p-t19">
           <div className="title-heading">
             <div className="sub-heading clr-pri-3 f-mulish">
-              <h2 className="inner-sub st-2" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "48px"}}>Hakkımızda</h2>
+              <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "40px"}}>Hakkımızda</h4>
 
             </div>
           </div>
@@ -27,9 +27,11 @@ const About = () => {
             <p className="clr-pri-2" data-wow-delay="0.3ms" data-wow-duration="1000ms">
               Peyus Kids olarak, çocukların öğrenme ve gelişim yolculuğunda onlara rehberlik etmek için buradayız. 0-6 yaş arası çocuklara özel tasarlanmış atölyemizde, oyunla öğrenmeyi bir araya getiriyor, onların yaratıcılıklarını ve potansiyellerini keşfetmelerine olanak tanıyoruz.
             </p>
-            <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "32px"}}>Amacımız:</h4>
+            <br></br>
+            <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "40px"}}>Amacımız:</h4>
             <p>Çocukların hayal gücünü geliştiren, eğlenceli ve eğitici bir atmosfer sunarak onların fiziksel, duygusal ve sosyal gelişimine katkıda bulunmak.</p>
-            <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "32px"}}>Kimleriz?</h4>
+            <br></br>
+            <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "40px"}}>Kimleriz?</h4>
             <p>Peyus Kids, psikoloji ve çocuk gelişimi alanında uzman iki kardeşin hayali olarak doğdu. Uzman ekibimizle birlikte her çocuğun bireysel ihtiyaçlarına uygun, modern ve bilimsel yöntemler kullanıyoruz.</p>
           </div>
         </div>
@@ -37,7 +39,8 @@ const About = () => {
       <div className="col-xl-7 col-lg-7 col-md-12 order-lg-2 order-1">
         <div className="sc-about-2 p-t19">
 
-            <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "32px"}}>Neler Sunuyoruz?</h4>
+            <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "40px"}}>Neler Sunuyoruz? </h4>
+            <br></br>
             <ul>
               <li className="st-1 fx">
 
@@ -50,11 +53,14 @@ const About = () => {
               <li className="st-3 fx">
 
                 <p >Sihirli Bir Mekân: Pastel tonlardaki sıcak tasarımımızla hem çocuklar hem de ebeveynler için rahat bir ortam.</p>
+                
               </li>
             </ul>
-            <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "32px"}}>Misyonumuz:</h4>
+            <br></br>
+            <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "40px"}}>Misyonumuz:</h4>
             <p>Her çocuğun kendi hızında öğrenip gelişebileceği güvenli bir alan yaratmak ve ebeveynlere bu yolculukta destek olmak.</p>
-            <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "32px"}}>Vizyonumuz:</h4>
+            <br></br><br></br>
+            <h4 className="" style={{fontFamily: "Caveat", color: "#e9857a",fontSize: "40px"}}>Vizyonumuz:</h4>
             <p>Çocukların hayal gücüne dokunan, sevgi ve güven dolu bir ortamda onların geleceğe daha güçlü bir şekilde hazırlanmasını sağlamak.</p>
 
         </div>

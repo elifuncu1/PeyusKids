@@ -7,6 +7,7 @@ import {
   Blog,
   Classes,
   Contact,
+  Services,
   Event,
   Home,
   Pages,
@@ -57,6 +58,9 @@ const Header = () => {
     <li className="menu-item">
       <About />
     </li>
+    <li className="menu-item">
+      <Services />
+    </li>    
     <li className="menu-item">
      <Teacher/>
     </li>

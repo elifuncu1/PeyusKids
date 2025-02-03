@@ -37,17 +37,17 @@ const Gallery = () => {
               </div>
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-12">
-              <div
+            <div
                 className="sc-gallery wow fadeIn animated"
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature">
+                <div >
                   <img
                     src="/assets/images/gallery/image2.jpeg"
                     alt="Image"
                   />
-                                    <div className="overlay" />
+               <div className="overlay" />
 
                  
                 </div>
@@ -59,7 +59,7 @@ const Gallery = () => {
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature">
+                <div >
                   <img
                     src="/assets/images/gallery/image3.jpeg"
                     alt="Image"
@@ -69,105 +69,120 @@ const Gallery = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+            {/* */}
+
+
+
+            <div  className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div
                 className="sc-gallery mg-bt wow fadeIn animated"
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature">
+                <div>
                   <img
                     src="/assets/images/gallery/image4.jpeg"
                     alt="Image"
                   />
                   <div className="overlay" />
-                 
+                  <br></br>
+
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+
+            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div
                 className="sc-gallery mgbt-0 wow fadeIn animated"
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature">
+                <div >
                   <img
                     src="/assets/images/gallery/image5.jpeg"
                     alt="Image"
                   />
                   <div className="overlay" />
-                  
+                  <br></br>
+                  <br></br>
+
+
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+            <div  className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div
                 className="sc-gallery mgbt-0 wow fadeIn animated"
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature">
+                <div >
                   <img src="/assets/images/gallery/image6.jpeg" alt="Image" />
                   <div className="overlay" />
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+
+            <div  className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div
                 className="sc-gallery mgbt-0 wow fadeIn animated"
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature">
+                <div >
                   <img src="/assets/images/gallery/image7.jpeg" alt="Image" />
                   <div className="overlay" />
+                  <br></br>
+                  <br></br>
+
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+
+            <div className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div
                 className="sc-gallery mgbt-0 wow fadeIn animated"
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature">
+                <div >
                   <img src="/assets/images/gallery/image8.jpeg" alt="Image" />
                   <div className="overlay" />
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+            <div  className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div
                 className="sc-gallery mgbt-0 wow fadeIn animated"
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature">
+                <div>
                   <img src="/assets/images/gallery/image9.jpeg" alt="Image" />
                   <div className="overlay" />
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+
+            <div  className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div
                 className="sc-gallery mgbt-0 wow fadeIn animated"
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature">
+                <div >
                   <img src="/assets/images/gallery/image10.jpeg" alt="Image" />
                   <div className="overlay" />
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+            <div  className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div
                 className="sc-gallery mgbt-0 wow fadeIn animated"
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature">
+                <div >
                   <img src="/assets/images/gallery/image11.jpeg" alt="Image" />
                   <div className="overlay" />
                 </div>

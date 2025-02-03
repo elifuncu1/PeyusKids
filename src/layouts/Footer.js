@@ -80,6 +80,9 @@ const Footer2 = () => {
                     <li className="fx">
                         <a className="wd-ctm f-mulish">Danışmanlık</a>
                     </li>
+                    <li className="fx">
+                        <a href="/blog-grid" className="wd-ctm f-mulish">KVKK</a>
+                    </li>
                   </ul>
                 </div>
 

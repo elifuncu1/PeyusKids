@@ -47,27 +47,39 @@ const Index = () => {
                           <img style={{position: "absolute", top: "30%", left: "60%", width: "175px", height: "200px"}} src="/assets/images/Favicon.png"/>
                           </div>
                           <ul>
-                            <li className="st-1 fx">
-                              <i className="fas fa-check" />
-                              <p className="clr-pri-2">Oyun Grupları</p>
-                            </li>
-                            <li className="st-1 fx">
-                              <i className="fas fa-check" />
-                              <p className="clr-pri-2">Oyun Atölyeleri</p>
-                            </li>
-                            <li className="st-2 fx">
-                              <i className="fas fa-check" />
-                              <p className="clr-pri-2">Gelişim Değerlendirmesi</p>
-                            </li>
-                            <li className="st-3 fx">
-                              <i className="fas fa-check" />
-                              <p className="clr-pri-2">Bilingual (Çift Dilli) Oyun Grupları</p>
-                            </li>
-                            <li className="st-3 fx">
-                              <i className="fas fa-check" />
-                              <p className="clr-pri-2">Danışmanlık</p>
-                            </li>
-                          </ul>
+  <li className="st-1 fx">
+    <a href="/Services" style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
+      <i className="fas fa-check" style={{ marginRight: "8px" }} />
+      <p className="clr-pri-2" style={{ margin: "0" }}>Oyun Grupları</p>
+    </a>
+  </li>
+  <li className="st-1 fx">
+    <a href="/Services" style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
+      <i className="fas fa-check" style={{ marginRight: "8px" }} />
+      <p className="clr-pri-2" style={{ margin: "0" }}>Oyun Atölyeleri</p>
+    </a>
+  </li>
+  <li className="st-2 fx">
+    <a href="/Services" style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
+      <i className="fas fa-check" style={{ marginRight: "8px" }} />
+      <p className="clr-pri-2" style={{ margin: "0" }}>Gelişim Değerlendirmesi</p>
+    </a>
+  </li>
+  <li className="st-3 fx">
+    <a href="/Services" style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
+      <i className="fas fa-check" style={{ marginRight: "8px" }} />
+      <p className="clr-pri-2" style={{ margin: "0" }}>Bilingual (Çift Dilli) Oyun Grupları</p>
+    </a>
+  </li>
+  <li className="st-3 fx">
+    <a href="/Services" style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
+      <i className="fas fa-check" style={{ marginRight: "8px" }} />
+      <p className="clr-pri-2" style={{ margin: "0" }}>Danışmanlık</p>
+    </a>
+  </li>
+</ul>
+
+
                           <div className="box-btn">
                             <a href="contact/" className="fl-btn st-12">
                               <span className="inner">İLETİŞİME GEÇİN</span>

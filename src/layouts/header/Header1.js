@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Sidebar from "../../components/Sidebar";
 import {
   About,
+  Services,
   Blog,
   Classes,
   Contact,
@@ -14,6 +15,7 @@ import {
   Galeri,
   Teacher,
 } from "./Menus";
+
 
 const Header1 = () => {
   const [sidebarToggle, setSidebarToggle] = useState(false);
@@ -115,11 +117,15 @@ const Header1 = () => {
                 <nav id="mainnav" className="mainnav st-2">
                   <ul className="menu">
                   <li className="menu-item">
-      <Home />
-    </li>
-                    <li className="menu-item">
+                 <Home />
+                  </li>
+    <li className="menu-item">
                       <About />
                     </li>
+                    <li className="menu-item">
+                      <Services />
+                    </li>
+
                     <li className="menu-item">
 <Teacher/>                      </li>
                       <li className="menu-item">

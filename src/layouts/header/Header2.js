@@ -5,6 +5,7 @@ import Sidebar from "../../components/Sidebar";
 import {
   About,
   Blog,
+  Services,
   Contact,
   Event,
   Home,
@@ -58,6 +59,10 @@ const Header2 = () => {
                       <li className="menu-item">
                         <About />
                       </li>
+                      <li className="menu-item">
+                        <Services />
+                      </li>
+
                       <li className="menu-item-has-children">
                         <a>PAGES</a>
                         <ul className="sub-menu">
