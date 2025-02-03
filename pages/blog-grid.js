@@ -68,7 +68,7 @@ const Blog = () => {
                   </p>
 
                   <h5>Kişisel Veri Toplamanın Yöntemi ve Hukuki Sebebi</h5>
-                  <ul>
+                  <p><ul>
                     <li>Kanunlarda açıkça öngörülmesi.</li>
                     <li>
                       Fiili imkânsızlık nedeniyle rızasını açıklayamayacak durumda
@@ -96,6 +96,7 @@ const Blog = () => {
                       olması.
                     </li>
                   </ul>
+                  </p>
 
                   <h5>Kişisel Verilerin İşlenmesine Dair Haklarınız</h5>
                   <p>
