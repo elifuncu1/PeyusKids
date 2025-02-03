@@ -160,11 +160,12 @@ const MobileMenu = () => {
               <a href="/">ANASAYFA</a>
             </li>
             <li className="menu-item">
-              <About />
+              <Link href="/Services">HİZMETLERİMİZ</Link>
             </li>
             <li className="menu-item">
-              <Services />
+              <About />
             </li>
+            
             <li className="menu-item">
               <Link href="/kurucularimiz">KURUCULARIMIZ</Link>
             </li>

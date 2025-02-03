@@ -118,13 +118,15 @@ const Header1 = () => {
                   <ul className="menu">
                   <li className="menu-item">
                  <Home />
+                 
                   </li>
+                  <li className="menu-item">
+                      <Services />
+                    </li>
     <li className="menu-item">
                       <About />
                     </li>
-                    <li className="menu-item">
-                      <Services />
-                    </li>
+                    
 
                     <li className="menu-item">
 <Teacher/>                      </li>

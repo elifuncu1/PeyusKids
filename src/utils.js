@@ -2,6 +2,7 @@ export const activeNavMenu = (path) => {
   const navItem = document.querySelectorAll("#mainnav li a");
 
   navItem.forEach((nav) => {
+    console.log(`Checking nav: ${nav.pathname}`);
     if (nav.pathname === window.location.pathname) {
       if (!nav.href.includes("#")) {
         if (nav.pathname === "/contact") {
