@@ -28,7 +28,9 @@ export const Teacher = () => (
 export const Services = () => (
   <Fragment>
     <li>
-      <Link href="/Services">HİZMETLERİMİZ</Link>
+      <Link href="/hizmetlerimiz">
+      HİZMETLERİMİZ
+      </Link>
     </li>
   
   </Fragment>

@@ -157,10 +157,12 @@ const MobileMenu = () => {
         >
           <ul className="menu" id="mainnav">
             <li className="menu-item-has-children">
-              <a href="/">ANASAYFA</a>
+              <Link href="/">ANASAYFA</Link>
             </li>
             <li className="menu-item">
-              <Link href="/Services">HİZMETLERİMİZ</Link>
+              <Link href="/hizmetlerimiz">
+                HİZMETLERİMİZ
+              </Link>
             </li>
             <li className="menu-item">
               <About />

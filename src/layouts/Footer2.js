@@ -83,7 +83,7 @@ const Footer2 = () => {
                         <a className="wd-ctm f-mulish">Danışmanlık</a>
                     </li>
                     <li className="fx">
-                        <a href="/blog-grid" className="wd-ctm f-mulish">KVKK</a>
+                        <Link href="/blog-grid" className="wd-ctm f-mulish">KVKK</Link>
                     </li>
 
                   </ul>

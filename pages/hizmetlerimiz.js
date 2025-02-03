@@ -8,9 +8,9 @@ import Layout from "../src/layouts/Layout";
 import { fourSlider } from "../src/SliderProps";
 
 
-const Services = () => {
+const Hizmetlerimiz = () => {
   return (
-    <Layout bodyClass={"Services"}>
+    <Layout bodyClass={"Hizmetlerimiz"}>
       <PageBanner pageName={"Hizmetlerimiz"} />
       
       <div className="container" style={{ marginBottom: "100px", marginTop: "100px" }}>
@@ -308,4 +308,4 @@ const Services = () => {
 
   );
 };
-export default Services;
+export default Hizmetlerimiz;

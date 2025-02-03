@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layouts/PreLoader";
 import "../styles/globals.css";
-
+import Link from "next/link";
 const App = ({ Component, pageProps }) => {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
@@ -29,16 +29,16 @@ const App = ({ Component, pageProps }) => {
         <meta property="og:title" content="Peyus Kids - Oyun Atölyemiz" />
         <meta property="og:description" content="Peyus Kids - Çocuklar için eğlenceli ve eğitici oyun atölyemiz." />
         <meta property="og:image" content="assets/images/og-image.png" />
-        <meta property="og:url" content="https://www.peysukids.com" />
+        <meta property="og:url" content="https://www.peyuskids.com" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Peyus Kids - Oyun Atölyemiz" />
         <meta name="twitter:description" content="Peyus Kids - Çocuklar için eğlenceli ve eğitici oyun atölyemiz." />
         <meta name="twitter:image" content="assets/images/twitter-image.png" />
       </Head>
       <div className="whatsapp-container">
-      <a href="https://wa.me/905515028121" target="_blank" rel="noopener noreferrer">
+      <Link href="https://wa.me/905515028121" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/whatsapp.png" alt="WhatsApp" width="60" height="60" style={{zIndex:"9999",position:"fixed",bottom:"20px",left:"20px"}}/>
-      </a>
+      </Link>
       </div>
       {loader && <PreLoader />}
       <Component {...pageProps}  />

@@ -14,33 +14,39 @@ const Footer2 = () => {
               <div className="widget-footer">
                 <div className="widget widget-logo">
                   <div className="logo-bottom" id="logo-footer">
-                  <Link href="/">
-  <a>
-    <img
-      src="assets/images/logo/logofootert.png"
-      alt="kinco"
-      style={{ maxWidth: '70%', height: 'auto' }}
-    />
-  </a>
-</Link>
+                    <Link href="/">
+                      <a>
+                        <img
+                          src="assets/images/logo/logofootert.png"
+                          alt="kinco"
+                          style={{ maxWidth: '70%', height: 'auto' }}
+                        />
+                      </a>
+                    </Link>
 
                   </div>
                   <div className="list-contact">
                     <ul>
-                    <li className="fx">
-                        <a href="https://www.instagram.com/peyuskids" target="_blank" rel="noopener noreferrer">
-                          <i className="fab fa-instagram" /> @peyuskids
-                        </a>
+                      <li className="fx">
+                        <Link href="https://www.instagram.com/peyuskids" target="_blank" rel="noopener noreferrer">
+                          <a>
+                            <i className="fab fa-instagram" /> @peyuskids
+                          </a>
+                        </Link>
                       </li>
                       <li className="fx">
-                        <a href="mailto:peyuskids@gmail.com">
-                          <i className="far fa-envelope" /> peyuskids@gmail.com
-                        </a>
+                        <Link href="mailto:peyuskids@gmail.com">
+                          <a>
+                            <i className="far fa-envelope" /> peyuskids@gmail.com
+                          </a>
+                        </Link>
                       </li>
                       <li className="fx">
-                        <a href="tel:05515028121">
-                          <i className="fal fa-phone" /> +90 (551) 502 8121
-                        </a>
+                        <Link href="tel:05515028121">
+                          <a>
+                            <i className="fal fa-phone" /> +90 (551) 502 8121
+                          </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -60,8 +66,8 @@ const Footer2 = () => {
                     </div>
                     <div className="cls-time">
                       <p>Adres</p>
-                      <h4 style={{fontSize: "12px"}}>Cevizli Mah. Tugay Yolu Cad. Piazza Konutları
-                      No:69-B Daire:8 Kat:4 Maltepe/İstanbul</h4>
+                      <h4 style={{ fontSize: "12px" }}>Cevizli Mah. Tugay Yolu Cad. Piazza Konutları
+                        No:69-B Daire:8 Kat:4 Maltepe/İstanbul</h4>
                     </div>
                   </div>
                 </div>
@@ -69,26 +75,26 @@ const Footer2 = () => {
                   <h4 className="title-widget">Programlarımız</h4>
                   <ul className="list-link">
                     <li className="fx">
-                        <a className="wd-ctm f-mulish">Oyun Atölyeleri</a>
+                      <a className="wd-ctm f-mulish">Oyun Atölyeleri</a>
                     </li>
                     <li className="fx">
-                        <a className="wd-ctm f-mulish">Gelişim Değerlendirmesi</a>
+                      <a className="wd-ctm f-mulish">Gelişim Değerlendirmesi</a>
                     </li>
                     <li className="fx">
-                        <a className="wd-ctm f-mulish">Bilingual (Çift Dilli) Oyun Grupları</a>
+                      <a className="wd-ctm f-mulish">Bilingual (Çift Dilli) Oyun Grupları</a>
                     </li>
                     <li className="fx">
-                        <a className="wd-ctm f-mulish">Danışmanlık</a>
+                      <a className="wd-ctm f-mulish">Danışmanlık</a>
                     </li>
                     <li className="fx">
-                        <a href="/blog-grid" className="wd-ctm f-mulish">KVKK</a>
+                      <Link href="/blog-grid" className="wd-ctm f-mulish">KVKK</Link>
                     </li>
                   </ul>
                 </div>
 
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>

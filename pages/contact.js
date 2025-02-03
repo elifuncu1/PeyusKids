@@ -1,3 +1,4 @@
+import Link from "next/link";
 import PageBanner from "../src/components/PageBanner";
 import { LeftArrow, RightArrow } from "../src/Icons";
 import Layout from "../src/layouts/Layout";
@@ -6,8 +7,8 @@ const Contact = () => {
     <Layout bodyClass={"contact"}>
       <PageBanner pageName={"İletişim"} pageTitle={"İletişim"} />
 
-    
-      <section className="tf-section tf-contact" style={{marginTop:'100px'}}>
+
+      <section className="tf-section tf-contact" style={{ marginTop: '100px' }}>
         <div className="container">
           <div className="row">
             <div className="col-md-5">
@@ -41,7 +42,7 @@ const Contact = () => {
                   <div className="content">
                     <p>Adres</p>
                     <h4>Cevizli Mah. Tugay Yolu Cad. Piazza Konutları
-                    No:69-B Daire:8 Kat:4 Maltepe/İstanbul</h4>
+                      No:69-B Daire:8 Kat:4 Maltepe/İstanbul</h4>
                   </div>
                 </div>
                 <div className="fx Email">
@@ -86,7 +87,7 @@ const Contact = () => {
                   </div>
                   <div className="content">
                     <p>Telefon</p>
-                    <h4><a href="tel:+905515028121">+90 (551) 502 8121</a></h4>
+                    <h4><Link href="tel:+905515028121">+90 (551) 502 8121</Link></h4>
                   </div>
                 </div>
                 <div className="fx instagram">
@@ -96,7 +97,11 @@ const Contact = () => {
                   </div>
                   <div className="content">
                     <p>Instagram</p>
-                    <h4><a href="https://www.instagram.com/peyuskids/" target="_blank" rel="noopener noreferrer">@peyuskids</a></h4>
+                    <h4>
+                      <Link href="https://www.instagram.com/peyuskids/" target="_blank" rel="noopener noreferrer">
+                        <a>@peyuskids</a>
+                      </Link>
+                    </h4>
                   </div>
                 </div>
               </div>
@@ -114,27 +119,27 @@ const Contact = () => {
         </div>
       </section>
       <section>
-  <div className="tf-section map">
-    <div className="flat-map">
-      <iframe
-        className="map-content wow fadeInUp animated"
-        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3014.8512143864345!2d29.16482387585367!3d40.91900807136307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCevizli%20Mah.%20Tugay%20Yolu%20Cad.%20Piazza%20Konutlar%C4%B1%20No%3A69-B%20Daire%3A8%20Kat%3A4%20Maltepe%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1734817223339!5m2!1str!2str"
-        width={600}
-        height={450}
-        style={{
-          border: 0,
-          visibility: "visible",
-          animationName: "fadeInUp",
-        }}
-        allowFullScreen=""
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      />
-    </div>
-  </div>
-</section>
+        <div className="tf-section map">
+          <div className="flat-map">
+            <iframe
+              className="map-content wow fadeInUp animated"
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3014.8512143864345!2d29.16482387585367!3d40.91900807136307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCevizli%20Mah.%20Tugay%20Yolu%20Cad.%20Piazza%20Konutlar%C4%B1%20No%3A69-B%20Daire%3A8%20Kat%3A4%20Maltepe%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1734817223339!5m2!1str!2str"
+              width={600}
+              height={450}
+              style={{
+                border: 0,
+                visibility: "visible",
+                animationName: "fadeInUp",
+              }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+      </section>
 
-      
+
     </Layout>
   );
 };

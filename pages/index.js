@@ -48,42 +48,51 @@ const Index = () => {
                           </div>
                           <ul>
   <li className="st-1 fx">
-    <a href="/Services" style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
-      <i className="fas fa-check" style={{ marginRight: "8px" }} />
-      <p className="clr-pri-2" style={{ margin: "0" }}>Oyun Grupları</p>
-    </a>
+  <Link href="/hizmetlerimiz">
+      <a style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
+        <i className="fas fa-check" style={{ marginRight: "8px" }} />
+        <p className="clr-pri-2" style={{ margin: "0" }}>Oyun Grupları</p>
+      </a>
+    </Link>
   </li>
   <li className="st-1 fx">
-    <a href="/Services" style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
+    <Link href="/hizmetlerimiz">
+    <a style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
       <i className="fas fa-check" style={{ marginRight: "8px" }} />
       <p className="clr-pri-2" style={{ margin: "0" }}>Oyun Atölyeleri</p>
     </a>
+    </Link>
   </li>
   <li className="st-2 fx">
-    <a href="/Services" style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
+    <Link href="/hizmetlerimiz">
+    <a style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
       <i className="fas fa-check" style={{ marginRight: "8px" }} />
       <p className="clr-pri-2" style={{ margin: "0" }}>Gelişim Değerlendirmesi</p>
     </a>
+    </Link>
   </li>
   <li className="st-3 fx">
-    <a href="/Services" style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
+    <Link href="/hizmetlerimiz">
+    <a style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
       <i className="fas fa-check" style={{ marginRight: "8px" }} />
       <p className="clr-pri-2" style={{ margin: "0" }}>Bilingual (Çift Dilli) Oyun Grupları</p>
     </a>
+    </Link>
   </li>
   <li className="st-3 fx">
-    <a href="/Services" style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
+    <Link href="/hizmetlerimiz">
+    <a style={{ fontSize: "14px", display: "flex", alignItems: "center" }}>
       <i className="fas fa-check" style={{ marginRight: "8px" }} />
       <p className="clr-pri-2" style={{ margin: "0" }}>Danışmanlık</p>
     </a>
+    </Link>
   </li>
 </ul>
 
-
                           <div className="box-btn">
-                            <a href="contact/" className="fl-btn st-12">
+                            <Link href="contact" className="fl-btn st-12">
                               <span className="inner">İLETİŞİME GEÇİN</span>
-                            </a>
+                            </Link>
                             <Link href="/about">
                               <a className="fl-btn st-1">
                                 <span className="inner">daha fazla öğren</span>
