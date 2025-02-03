@@ -478,7 +478,7 @@
         padding: 0 0 !important;
     }
     .infor-teacher-detail {
-        margin-top: 70px;
+        margin-top: 0px;
     }
     .item-quote {
         padding: 30px 15px;
@@ -531,11 +531,12 @@
     }
 
     .tf-section {
-        padding: 70px 0 !important;
+        padding: 0px 0 !important;
     }
     .tf-section.tf-courses {
         padding: 130px 0 !important;
     }
+
     .tf-subcribe {
         padding: 50px 0;
     }
