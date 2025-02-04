@@ -90,8 +90,10 @@ const Index = () => {
 </ul>
 
                           <div className="box-btn">
-                            <Link href="contact" className="fl-btn st-12">
-                              <span className="inner">İLETİŞİME GEÇİN</span>
+                          <Link href="/contact">
+                              <a className="fl-btn st-1">
+                                <span className="inner">iletişime geçin</span>
+                              </a>
                             </Link>
                             <Link href="/about">
                               <a className="fl-btn st-1">
