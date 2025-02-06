@@ -91,6 +91,15 @@ const Footer2 = () => {
                     </li>
                   </ul>
                 </div>
+                <div className="widget widget-link">
+                  <h4 className="title-widget">Kurumsal</h4>
+                  <ul className="list-link">
+
+                    <li className="fx">
+                      <Link href="/blog-grid" className="wd-ctm f-mulish">KVKK</Link>
+                    </li>
+                  </ul>
+                </div>
 
               </div>
             </div>

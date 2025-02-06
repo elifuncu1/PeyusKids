@@ -91,7 +91,7 @@ const Index = () => {
 
                           <div className="box-btn">
                           <Link href="/contact">
-                              <a className="fl-btn st-1">
+                              <a className="fl-btn st-12">
                                 <span className="inner">iletişime geçin</span>
                               </a>
                             </Link>
