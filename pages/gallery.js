@@ -35,7 +35,7 @@ const Gallery = () => {
     <Layout bodyClass={"gallery"}>
       <PageBanner pageName={"Galeri"} />
 
-      <section style={{ padding: "50px 0" }}>
+      <section >
         <div className="container">
           <div className="row gx-3 gy-3">
             <div className="col-12">
@@ -49,8 +49,9 @@ const Gallery = () => {
                 <div
                   style={galleryStyle}
                   className="sc-gallery wow fadeIn animated"
-                  data-wow-delay="0.3s"
-                  data-wow-duration="1.2s"
+                  data-wow-delay="0s"
+                  data-wow-duration="0.3s"
+                  loading="lazy"
                 >
                   <div style={{ position: "relative" }}>
                     <img

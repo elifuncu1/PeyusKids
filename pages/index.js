@@ -186,11 +186,10 @@ const Index = () => {
                   </svg>
                 </div>
                 <div className="box-content">
-                  <h4 className="title">
-                    <a>
-                      <a>Uzman kadro ile güvendesiniz</a>
-                    </a>
-                  </h4>
+                <h4 className="title" style={{ fontSize: "24px", lineHeight: "1.2" }}>
+  <a>Uzman kadro ile güvendesiniz</a>
+</h4>
+
                   <p className="wrap f-mulish">
                   Alanında bilgili psikolog ve çocuk gelişimci uzmanlarımız her çocuğun ihtiyacına yönelik yol haritası oluşturuyor.
 
@@ -222,7 +221,7 @@ const Index = () => {
                   </svg>
                 </div>
                 <div className="box-content">
-                  <h4 className="title">
+                <h4 className="title" style={{ fontSize: "24px", lineHeight: "1.2" }}>
                     <a >
                       <a>Gelişim Değerlendirmesi</a>
                     </a>
@@ -257,7 +256,7 @@ const Index = () => {
                   </svg>
                 </div>
                 <div className="box-content">
-                  <h4 className="title">
+                <h4 className="title" style={{ fontSize: "24px", lineHeight: "1.2" }}>
                     <a>
                       <a>Bilingual (Çift Dilli) Oyun Grupları</a>
                     </a>
@@ -292,7 +291,7 @@ const Index = () => {
                   </svg>
                 </div>
                 <div className="box-content">
-                  <h4 className="title">
+                <h4 className="title" style={{ fontSize: "24px", lineHeight: "1.2" }}>
                     <a>
                       <a>Danışmanlık</a>
                     </a>

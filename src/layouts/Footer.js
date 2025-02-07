@@ -86,20 +86,20 @@ const Footer2 = () => {
                     <li className="fx">
                       <a className="wd-ctm f-mulish">Danışmanlık</a>
                     </li>
-                    <li className="fx">
-                      <Link href="/blog-grid" className="wd-ctm f-mulish">KVKK</Link>
-                    </li>
+                    
                   </ul>
                 </div>
                 <div className="widget widget-link">
                   <h4 className="title-widget">Kurumsal</h4>
                   <ul className="list-link">
-
                     <li className="fx">
-                      <Link href="/blog-grid" className="wd-ctm f-mulish">KVKK</Link>
+                      <Link href="/blog-grid">
+                        <a className="wd-ctm f-mulish">KVKK</a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
+
 
               </div>
             </div>

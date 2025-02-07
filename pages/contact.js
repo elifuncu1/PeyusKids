@@ -8,7 +8,7 @@ const Contact = () => {
       <PageBanner pageName={"İletişim"} pageTitle={"İletişim"} />
 
 
-      <section className="tf-section tf-contact" style={{ marginTop: '100px' }}>
+      <section className="tf-section tf-contact" >
         <div className="container">
           <div className="row">
             <div className="col-md-5">

@@ -584,8 +584,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-color: #FAF8F4;
+  height: 85%;
+  margin-bottom: 0 !important;  /* Alt boşluğu kaldır */
+  padding-bottom: 0 !important; 
+    background-color: #FAF8F4;
   opacity: 0.85;
   background-size: cover;
   -webkit-mask-position: center center;
