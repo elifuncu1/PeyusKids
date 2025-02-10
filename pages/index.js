@@ -95,7 +95,7 @@ const Index = () => {
                                 <span className="inner">iletişime geçin</span>
                               </a>
                             </Link>
-                            <Link href="/about">
+                            <Link href="/hizmetlerimiz">
                               <a className="fl-btn st-1">
                                 <span className="inner">daha fazla öğren</span>
                               </a>
